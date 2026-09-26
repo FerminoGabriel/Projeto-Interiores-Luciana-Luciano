@@ -779,10 +779,11 @@ const finalSelect16=selectFurniture;selectFurniture=function(root){finalSelect16
 
 // R17: ficheiros de informações fora da área de desenho no celular.
 function furnitureFacing(root){
+ if(root===403)return -3*Math.PI/4;
  if(root===102||root===104||root===203||root>=400&&root<500)return 3*Math.PI/4;
  if(root===8||root===100||root===103||root===105)return -Math.PI/4;
  if(root===209)return -Math.PI/2-.2;
- if(root>=210&&root<=215)return -Math.PI/4;
+ if(root>=210&&root<=215)return 3*Math.PI/4;
  if(root>=301&&root<=310){const b=furnitureBounds(root),x=(b[0][0]+b[1][0])/2,y=(b[0][1]+b[1][1])/2;return Math.atan2(11.30-y,3.89-x)+.18}
  return Math.PI/4;
 }
