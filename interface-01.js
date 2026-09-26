@@ -245,7 +245,7 @@ function furnitureBounds(root){const group=parts.filter(p=>p.root===root);return
 const savedVisible=visible;
 visible=function(p){return selectedFurniture!==null?cat[p.category]&&p.on&&p.root===selectedFurniture:savedVisible(p)};
 const savedFit=fit;
-fit=function(){if(selectedFurniture===null){savedFit();return}const b=furnitureBounds(selectedFurniture),sz=sub(b[1],b[0]),asp=Math.max(.3,canvas.clientWidth/canvas.clientHeight);target=b[0].map((n,i)=>(n+b[1][i])/2);yaw=Math.PI/4;pitch=Math.atan(1/Math.sqrt(2));if(view==='plan'){target[2]=0;span=(matchMedia('(orientation: landscape)').matches?Math.max(sz[0],sz[1]/asp):Math.max(sz[1],sz[0]/asp))*1.55}else{const w=(sz[0]+sz[1])*Math.SQRT1_2,h=Math.sin(pitch)*w+Math.cos(pitch)*sz[2];span=Math.max(h,w/asp)*1.55}request()};
+fit=function(){if(selectedFurniture===null){savedFit();return}const b=furnitureBounds(selectedFurniture),sz=sub(b[1],b[0]),asp=Math.max(.3,canvas.clientWidth/canvas.clientHeight);target=b[0].map((n,i)=>(n+b[1][i])/2);yaw=furnitureFacing(selectedFurniture);pitch=Math.atan(1/Math.sqrt(2));if(view==='plan'){target[2]=0;span=(matchMedia('(orientation: landscape)').matches?Math.max(sz[0],sz[1]/asp):Math.max(sz[1],sz[0]/asp))*1.55}else{const w=(sz[0]+sz[1])*Math.SQRT1_2,h=Math.sin(pitch)*w+Math.cos(pitch)*sz[2];span=Math.max(h,w/asp)*1.55}request()};
 function clearFurniture(){selectedFurniture=null;furnitureCard.hidden=true;isCabinet=false;shadowDirty=true;}
 const savedFocusRoom=focusRoom;
 focusRoom=function(r){clearFurniture();savedFocusRoom(r)};
@@ -775,6 +775,34 @@ const hudBefore16=drawHUD;drawHUD=function(){if(explosionAmount>0||D.products?.[
 const pickBefore16=pickFurniture;pickFurniture=function(e){if(explosionAmount>0)return;pickBefore16(e)};
 const clearBefore16=clearFurniture;clearFurniture=function(...args){resetExplosion();productPanel.hidden=true;explodeButton.hidden=true;document.body.classList.remove('productSelected');return clearBefore16(...args)};
 const finalSelect16=selectFurniture;selectFurniture=function(root){finalSelect16(root);const sample=$('#furnitureSamples');if(sample)sample.hidden=!!D.products?.[root]};
+
+
+// R17: ficheiros de informações fora da área de desenho no celular.
+function furnitureFacing(root){
+ if(root===102||root===104||root===203||root>=400&&root<500)return 3*Math.PI/4;
+ if(root===8||root===100||root===103||root===105)return -Math.PI/4;
+ if(root===209)return -Math.PI/2-.2;
+ if(root>=210&&root<=215)return -Math.PI/4;
+ if(root>=301&&root<=310){const b=furnitureBounds(root),x=(b[0][0]+b[1][0])/2,y=(b[0][1]+b[1][1])/2;return Math.atan2(11.30-y,3.89-x)+.18}
+ return Math.PI/4;
+}
+const mobileDetailMedia=matchMedia('(max-width: 900px)');
+const cardStage=$('.stage');const detailCalls=document.createElement('section');detailCalls.className='detailCalls';furnitureCard.append(detailCalls);
+function placeFurnitureCard(){if(mobileDetailMedia.matches)cardStage.after(furnitureCard);else cardStage.append(furnitureCard)}
+placeFurnitureCard();mobileDetailMedia.addEventListener('change',()=>{placeFurnitureCard();if(parts.length)fit()});
+const boundsBefore17=furnitureBounds;furnitureBounds=function(root){if(root!==8)return boundsBefore17(root);const ps=parts.filter(p=>p.root===8||p.root===103&&[5,28].includes(p.sourceGroup));return [ps.reduce((a,p)=>a.map((v,i)=>Math.min(v,p.bounds[0][i])),[Infinity,Infinity,Infinity]),ps.reduce((a,p)=>a.map((v,i)=>Math.max(v,p.bounds[1][i])),[-Infinity,-Infinity,-Infinity])]};
+const visibleBefore17=visible;visible=function(p){if(selectedFurniture===8)return p.on&&(p.root===8||p.root===103&&[5,28].includes(p.sourceGroup));return visibleBefore17(p)};
+const barbecueButton=document.createElement('button');barbecueButton.textContent='Churrasqueira';barbecueButton.onclick=()=>selectFurniture(8);newQuick.append(barbecueButton);
+const selectBefore17=selectFurniture;selectFurniture=function(root){placeFurnitureCard();selectBefore17(root);detailCalls.replaceChildren();
+ const names=new Set();let calls=[];
+ if(addedFurniture[root])calls=addedCalls(root).map(t=>t.text);
+ if(root===100||root===101)calls=(D.newSource?.texts||[]).filter(t=>root===101?/ALUM|TRILHO/.test(t.text):!/ALUM|TRILHO/.test(t.text)).map(t=>t.text);
+ if(root===12)calls=['Portas ripadas de correr','Puxador cava','Prateleiras em MDF ARAUCO LINHO','Sóculo em quartzito White TAJ'];
+ if(root===8){$('#sceneName').textContent='Churrasqueira';$('#furnitureName').textContent='Churrasqueira · cozinha';$('#sceneSubtitle').textContent='Isométrica frontal';$('#furnitureNote').textContent='Conjunto identificado no SketchUp: corpo da churrasqueira, moldura de quartzito e portas guilhotina de vidro. Equipamento, ventilação e instalação a compatibilizar.';$('#furnitureDrawing').hidden=true;explodeButton.hidden=true;const sample=$('#furnitureSamples');if(sample)sample.hidden=true;calls=['Corpo da churrasqueira','Moldura de quartzito','Portas guilhotina de vidro'];parts.filter(p=>p.root===103&&[5,28].includes(p.sourceGroup)).forEach(p=>p.on=true)}
+ if(calls.length){const heading=document.createElement('h4');heading.textContent='Elementos do conjunto';detailCalls.append(heading);const ul=document.createElement('ul');for(const text of calls){const label=text.trim();if(!label||names.has(label))continue;names.add(label);const li=document.createElement('li');li.textContent=label;ul.append(li)}detailCalls.append(ul)}
+ if(mobileDetailMedia.matches)requestAnimationFrame(()=>{if(selectedFurniture===root&&!technical){hallMotion++;furnitureTransition++;fit();cardStage.scrollIntoView({block:'start',behavior:'smooth'})}});
+};
+const hudBefore17=drawHUD;drawHUD=function(){if(mobileDetailMedia.matches&&selectedFurniture!==null){hud.innerHTML='';return}hudBefore17()};
 
 try{$('#loading p').textContent='Preparando materiais e geometria 3D…';setupGL();mats=D.materials.map(m=>({...m,gpu:texture(m.image)}));for(const p of D.parts){const edgeArray=await unpack(p.edges),meshes=[];for(const m of p.meshes){const a=await unpack(m.data);meshes.push({...m,gpu:gpu(a),pickArray:a})}parts.push({...p,meshes,edgeArray,edgeGpu:gpu(edgeArray),on:true})}remodelHall();for(const p of parts.filter(p=>p.root===12 && !/-R\d+/.test(p.name))){const label=document.createElement('label');label.className='layer';const input=document.createElement('input');input.type='checkbox';input.checked=true;input.dataset.piece=p.name;input.onchange=()=>{p.on=input.checked;const id=p.name.split(' · ')[0];parts.filter(q=>q.root===12&&q.name.startsWith(id+'-R')).forEach(q=>q.on=input.checked);shadowDirty=true;request()};label.append(input,document.createTextNode(p.name));$('#cabParts').append(label)}
 for(const name of ['MDF ARAUCO LINHO','MDF ARAUCO JEQUITIBA','QUARTZITO BRANCO']){const mat=mats.find(m=>m.name===name);if(!mat)continue;const row=document.createElement('div');row.className='material';const sample=document.createElement('div');sample.className='sample';sample.style.backgroundImage=mat.image?'url('+mat.image+')':'';const label=document.createElement('div');label.innerHTML='<strong>'+esc(name.replace('MDF ARAUCO ','MDF '))+'</strong><small>Textura incorporada ao SketchUp</small>';row.append(sample,label);$('#materials').append(row)}
