@@ -1,0 +1,5 @@
+
+(()=>{const q=s=>document.querySelector(s),gallery=q('#renderGallery'),dlg=q('#renderLightbox');let filled=false;
+q('#rendersButton').onclick=()=>{document.body.classList.add('rendersOpen');q('#rendersButton').setAttribute('aria-pressed','true');q('#docs').setAttribute('aria-pressed','false');q('#explore').setAttribute('aria-pressed','false');if(!filled){filled=true;JSON.parse(q('#renderData').textContent).forEach((r,i)=>{const b=document.createElement('button');b.className='renderCard';const im=document.createElement('img');im.src=r.src;im.alt='Imagem '+String(i+1).padStart(2,'0');im.loading='lazy';im.decoding='async';const caption=document.createElement('span');caption.textContent='Imagem '+String(i+1).padStart(2,'0');b.append(im,caption);b.onclick=()=>{q('#largeRender').src=r.src;q('#largeRender').alt=im.alt;q('#renderCaption').textContent='Imagem '+String(i+1).padStart(2,'0');dlg.showModal()};q('#renderGrid').append(b)})}};
+q('#closeRenders').onclick=()=>q('#explore').click();q('#closeLightbox').onclick=()=>dlg.close();dlg.onclick=e=>{if(e.target===dlg)dlg.close()};
+})();

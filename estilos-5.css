@@ -1,0 +1,2 @@
+
+.nav>.utility{display:none!important}.docIntro{align-items:center}.docActions{display:flex;align-items:center;justify-content:flex-end;gap:14px;flex-shrink:0}.docActions .docUnits{margin:0}.docActions button{white-space:nowrap}.sheetbar{display:none!important}@media(max-width:760px){.docIntro{display:block}.docActions{margin-top:18px;justify-content:flex-start;flex-wrap:wrap;gap:10px}.docActions .docUnits select{max-width:140px}}@media print{.docActions{display:none!important}@page{size:A3 landscape;margin:10mm}}

@@ -1,0 +1,6 @@
+
+#sheetType,#downloadSheet,.piecesDisclosure{display:none!important}.sheetbar{justify-content:flex-end}.technicalHelp{font-size:11px}#furnitureCard{animation:revealFurniture .35s ease-out}@keyframes revealFurniture{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+/* Viewport constante durante o zoom: evita reenquadramentos concorrentes. */
+@media(min-width:1000px){.stage:has(#furnitureCard:not([hidden])) #view,.stage:has(#furnitureCard:not([hidden])) #hud{width:100%}}
+@media(prefers-reduced-motion:reduce){#furnitureCard{animation:none}}
+@media print{@page{size:A2 portrait;margin:8mm}.paper{width:100%!important}#sheet{width:100%!important;height:auto!important}}

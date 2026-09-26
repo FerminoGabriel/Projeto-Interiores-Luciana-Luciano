@@ -1,0 +1,3 @@
+
+window.addEventListener('error',function(e){var el=document.getElementById('loading');if(el&&!el.hidden){el.replaceChildren();var msg=document.createElement('div');msg.className='app-error';msg.textContent='Não foi possível iniciar o projeto. '+(e.message||'Erro de carregamento.');el.append(msg);}});
+window.addEventListener('unhandledrejection',function(e){var el=document.getElementById('loading');if(el&&!el.hidden){el.replaceChildren();var msg=document.createElement('div');msg.className='app-error';msg.textContent='O carregamento foi interrompido. '+String(e.reason&&e.reason.message||e.reason||'Reabra o arquivo em um navegador atualizado.');el.append(msg);}});
