@@ -234,7 +234,9 @@
       "url": "https://www.consul.com.br/purificador-consul-bem-estar-refrigerado-cpb36af/p",
       "photo": "assets/produtos/purificador.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        501
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -252,7 +254,9 @@
       "url": "https://elettromec.com.br/produto/coifa-sospesa-ilha-110-cm-connect/",
       "photo": "assets/produtos/coifa.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        502
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -270,7 +274,9 @@
       "url": "https://hettich.com.br/sub-produtos/lixeira-dupla-inox/",
       "photo": "assets/produtos/lixeira.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        503
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -313,7 +319,9 @@
       "url": "https://debacco.com.br/produto/canal-organizador-900/",
       "photo": "assets/produtos/canal.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        504
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -331,7 +339,9 @@
       "url": "https://debacco.com.br/produto/lava-louca-de-embutir/",
       "photo": "assets/produtos/lava-loucas.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        505
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -349,7 +359,9 @@
       "url": "https://empresas.tramontina.com.br/product/monocomando-tramontina-versatile-em-a%C3%A7o-inox-com-bica-m%C3%B3vel/01t8c00000NtdTzAAJ",
       "photo": "assets/produtos/torneira.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        506
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -365,9 +377,11 @@
       "model": "Safestop",
       "referencePage": 31,
       "url": "https://www.tramontina.com.br/cooktop-a-gas-tramontina-design-collection-penta-inox-flat-5-gx-90-em-aco-inox-e-trempes-em-ferro-fundido-com-acendimento-automatico-e-5-queimadores/94728104.html",
-      "photo": null,
+      "photo": "assets/produtos/cooktop.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        507
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -384,9 +398,11 @@
       "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-583l-autosense-e-flexispace-4-portas-inox-espelhado-home-pro--iq8ws--1/p",
       "photo": "assets/produtos/geladeira.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        508
+      ],
       "notes": [
-        "Capacidade a confirmar: o briefing informa 541 L e o endereço fornecido menciona 583 L."
+        "Modelo 3D IQ8IB utilizado como representação do IQ8WS, conforme aprovação."
       ],
       "category": "produto",
       "dimensions": null,
@@ -399,20 +415,18 @@
       "id": "piso",
       "name": "York WH NAT",
       "brand": "Portinari",
-      "model": "York WH NAT",
+      "model": "York WH NAT 120 × 120 cm",
       "referencePage": 32,
       "url": "https://www.portinarirevestimentos.com.br/pt/produtos/york-wh-nat-60x120",
       "photo": "assets/produtos/piso.webp",
       "room": null,
       "roots": [],
-      "notes": [
-        "Formato a confirmar: referência do projeto 120 × 120 cm; endereço fornecido indica 60 × 120 cm."
-      ],
+      "notes": [],
       "category": "produto",
-      "dimensions": null,
+      "dimensions": "120 × 120 cm",
       "quantity": null,
       "materials": null,
-      "finish": null,
+      "finish": "Natural",
       "photoPage": 33
     },
     {
@@ -443,11 +457,11 @@
       "referencePage": 34,
       "url": "https://www.tapecouro.com.br/produto.php?pd_id=1677&ct_id=147",
       "photo": "assets/produtos/tapete-giallo.webp",
-      "room": null,
-      "roots": [],
-      "notes": [
-        "Associação ao ambiente e ao objeto 3D pendente de confirmação."
+      "room": "dining",
+      "roots": [
+        208
       ],
+      "notes": [],
       "category": "produto",
       "dimensions": null,
       "quantity": null,
@@ -463,11 +477,11 @@
       "referencePage": 35,
       "url": "https://www.tapetessaojose.com/produtos/tapete-seed-boucle-capri-off-white-e-natural/",
       "photo": "assets/produtos/tapete-seed.webp",
-      "room": null,
-      "roots": [],
-      "notes": [
-        "Associação ao ambiente e ao objeto 3D pendente de confirmação."
+      "room": "tv",
+      "roots": [
+        207
       ],
+      "notes": [],
       "category": "produto",
       "dimensions": null,
       "quantity": null,
@@ -483,11 +497,11 @@
       "referencePage": 36,
       "url": "https://mimootoys.com.br/produtos/tapete-lavavel-bamboo-leaf-120-cm-lorena-canals/",
       "photo": "assets/produtos/tapete-bamboo.webp",
-      "room": null,
-      "roots": [],
-      "notes": [
-        "Associação ao ambiente e ao objeto 3D pendente de confirmação."
+      "room": "hall",
+      "roots": [
+        205
       ],
+      "notes": [],
       "category": "produto",
       "dimensions": null,
       "quantity": null,
@@ -572,8 +586,10 @@
       "referencePage": 39,
       "url": "https://www.montot.com.br/product-page/mesa-lateral-faro",
       "photo": "assets/produtos/mesa-lateral.webp",
-      "room": null,
-      "roots": [],
+      "room": "tv",
+      "roots": [
+        550
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -590,8 +606,11 @@
       "referencePage": 40,
       "url": "https://www.arqplace.com.br/iluminacao-alto-padrao/plafon-carimbo-70x15-cm-lvf-132",
       "photo": "assets/produtos/plafon.webp",
-      "room": null,
-      "roots": [],
+      "room": "tv",
+      "roots": [
+        551,
+        554
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -608,8 +627,10 @@
       "referencePage": 41,
       "url": "https://www.arqplace.com.br/iluminacao-alto-padrao/pendente-carimbo-linear-140x15-x14-cm-2-modelos-lvf-186-163",
       "photo": "assets/produtos/pendente.webp",
-      "room": null,
-      "roots": [],
+      "room": "dining",
+      "roots": [
+        552
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -627,7 +648,57 @@
       "url": "https://www.lojailuminainstalacao.com.br/embutidos/linha-picco-interlight/picco-pro-embutido-redondo-8w-15-2700k?variant_id=30797",
       "photo": "assets/produtos/spot.webp",
       "room": null,
-      "roots": [],
+      "roots": [
+        600,
+        601,
+        602,
+        603,
+        604,
+        605,
+        606,
+        607,
+        608,
+        609,
+        610,
+        611,
+        612,
+        613,
+        614,
+        615,
+        616,
+        617,
+        618,
+        619,
+        620,
+        621,
+        622,
+        623,
+        624,
+        625,
+        626,
+        627,
+        628,
+        629,
+        630,
+        631,
+        632,
+        633,
+        634,
+        635,
+        636,
+        637,
+        638,
+        639,
+        640,
+        641,
+        642,
+        643,
+        644,
+        645,
+        646,
+        647,
+        648
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -645,7 +716,9 @@
       "url": "https://www.tramontina.com.br/forno-tramontina-epic-t-smart-60-f13-em-aco-inox/94871220.html",
       "photo": "assets/produtos/forno.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        509
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -663,7 +736,9 @@
       "url": "https://www.tramontina.com.br/cuba-tramontina-design-collection-quadrum-2.5c-34-em-aco-inox-com-acessorios/94009163.html",
       "photo": "assets/produtos/cuba.webp",
       "room": "kitchen",
-      "roots": [],
+      "roots": [
+        510
+      ],
       "notes": [],
       "category": "produto",
       "dimensions": null,
@@ -671,6 +746,33 @@
       "materials": null,
       "finish": null,
       "photoPage": 45
+    },
+    {
+      "id": "cortina",
+      "name": "Cortina de tecido com trilho",
+      "brand": null,
+      "model": null,
+      "room": null,
+      "roots": [
+        400,
+        401,
+        402,
+        403,
+        404,
+        405
+      ],
+      "photo": "assets/produtos/cortina-1.webp",
+      "photos": [
+        "assets/produtos/cortina-2.webp"
+      ],
+      "referenceLabel": "REVISÃO · referências de tecido e trilho",
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "url": null
     }
   ],
   "elements": [
@@ -879,197 +981,638 @@
     {
       "id": "obj-204",
       "root": 204,
-      "name": "Mesa de centro",
+      "name": "Mesa de centro Maia Castanho e Champanhe",
       "room": "tv",
       "category": "produto"
     },
     {
       "id": "obj-205",
       "root": 205,
-      "name": "Tapete 01 · entrada",
+      "name": "Tapete Bamboo Leaf",
       "room": "hall",
       "category": "produto"
     },
     {
       "id": "obj-300",
       "root": 300,
-      "name": "Mesa de jantar",
+      "name": "Mesa de jantar Fenda",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-301",
       "root": 301,
-      "name": "Cadeira de jantar 01",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-302",
       "root": 302,
-      "name": "Cadeira de jantar 02",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-303",
       "root": 303,
-      "name": "Cadeira de jantar 03",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-304",
       "root": 304,
-      "name": "Cadeira de jantar 04",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-305",
       "root": 305,
-      "name": "Cadeira de jantar 05",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-306",
       "root": 306,
-      "name": "Cadeira de jantar 06",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-307",
       "root": 307,
-      "name": "Cadeira de jantar 07",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-308",
       "root": 308,
-      "name": "Cadeira de jantar 08",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-309",
       "root": 309,
-      "name": "Cadeira de jantar 09",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-310",
       "root": 310,
-      "name": "Cadeira de jantar 10",
+      "name": "Cadeira Ming",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-207",
       "root": 207,
-      "name": "Tapete 02 · sala de TV",
+      "name": "Tapete Seed A",
       "room": "tv",
       "category": "produto"
     },
     {
       "id": "obj-208",
       "root": 208,
-      "name": "Tapete 03 · sala de jantar",
+      "name": "Tapete Giallo Chumbo",
       "room": "dining",
       "category": "produto"
     },
     {
       "id": "obj-209",
       "root": 209,
-      "name": "Revestimento de pedra Castelatto",
+      "name": "Moledo Naturale Branco Polar",
       "room": null,
       "category": "produto"
     },
     {
       "id": "obj-210",
       "root": 210,
-      "name": "Banqueta 01",
+      "name": "Banqueta Compasso",
       "room": "kitchen",
       "category": "produto"
     },
     {
       "id": "obj-211",
       "root": 211,
-      "name": "Banqueta 02",
+      "name": "Banqueta Compasso",
       "room": "kitchen",
       "category": "produto"
     },
     {
       "id": "obj-212",
       "root": 212,
-      "name": "Banqueta 03",
+      "name": "Banqueta Compasso",
       "room": "kitchen",
       "category": "produto"
     },
     {
       "id": "obj-213",
       "root": 213,
-      "name": "Banqueta 04",
+      "name": "Banqueta Compasso",
       "room": "kitchen",
       "category": "produto"
     },
     {
       "id": "obj-214",
       "root": 214,
-      "name": "Banqueta 05",
+      "name": "Banqueta Compasso",
       "room": "kitchen",
       "category": "produto"
     },
     {
       "id": "obj-215",
       "root": 215,
-      "name": "Banqueta 06",
+      "name": "Banqueta Compasso",
       "room": "kitchen",
       "category": "produto"
     },
     {
       "id": "obj-400",
       "root": 400,
-      "name": "Cortina 01",
+      "name": "Cortina de tecido com trilho",
       "room": null,
       "category": "produto"
     },
     {
       "id": "obj-401",
       "root": 401,
-      "name": "Cortina 02",
+      "name": "Cortina de tecido com trilho",
       "room": null,
       "category": "produto"
     },
     {
       "id": "obj-402",
       "root": 402,
-      "name": "Cortina 03",
+      "name": "Cortina de tecido com trilho",
       "room": null,
       "category": "produto"
     },
     {
       "id": "obj-403",
       "root": 403,
-      "name": "Cortina 04",
+      "name": "Cortina de tecido com trilho",
       "room": null,
       "category": "produto"
     },
     {
       "id": "obj-404",
       "root": 404,
-      "name": "Cortina 05",
+      "name": "Cortina de tecido com trilho",
       "room": null,
       "category": "produto"
     },
     {
       "id": "obj-405",
       "root": 405,
-      "name": "Cortina 06",
+      "name": "Cortina de tecido com trilho",
       "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-501",
+      "root": 501,
+      "name": "Purificador Bem Estar",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-502",
+      "root": 502,
+      "name": "Coifa Sospesa Ilha 110 cm",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-503",
+      "root": 503,
+      "name": "Lixeira dupla inox",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-504",
+      "root": 504,
+      "name": "Canal organizador úmido 900",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-505",
+      "root": 505,
+      "name": "Lava-louças de embutir 14 serviços",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-506",
+      "root": 506,
+      "name": "Monocomando Versatile",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-507",
+      "root": 507,
+      "name": "Cooktop Penta Inox Flat 5GX 90",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-508",
+      "root": 508,
+      "name": "Geladeira Home Pro",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-550",
+      "root": 550,
+      "name": "Mesa lateral Faro",
+      "room": "tv",
+      "category": "produto"
+    },
+    {
+      "id": "obj-551",
+      "root": 551,
+      "name": "Plafons Carimbó",
+      "room": "tv",
+      "category": "produto"
+    },
+    {
+      "id": "obj-554",
+      "root": 554,
+      "name": "Plafons Carimbó",
+      "room": "tv",
+      "category": "produto"
+    },
+    {
+      "id": "obj-552",
+      "root": 552,
+      "name": "Pendente Carimbó",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-600",
+      "root": 600,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-601",
+      "root": 601,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-602",
+      "root": 602,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-603",
+      "root": 603,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-604",
+      "root": 604,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-605",
+      "root": 605,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-606",
+      "root": 606,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-607",
+      "root": 607,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-608",
+      "root": 608,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-609",
+      "root": 609,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-610",
+      "root": 610,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-611",
+      "root": 611,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-612",
+      "root": 612,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-613",
+      "root": 613,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-614",
+      "root": 614,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-615",
+      "root": 615,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-616",
+      "root": 616,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-617",
+      "root": 617,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-618",
+      "root": 618,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-619",
+      "root": 619,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-620",
+      "root": 620,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-621",
+      "root": 621,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-622",
+      "root": 622,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-623",
+      "root": 623,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-624",
+      "root": 624,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-625",
+      "root": 625,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-626",
+      "root": 626,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-627",
+      "root": 627,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-628",
+      "root": 628,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-629",
+      "root": 629,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-630",
+      "root": 630,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-631",
+      "root": 631,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-632",
+      "root": 632,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-633",
+      "root": 633,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-634",
+      "root": 634,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-635",
+      "root": 635,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-636",
+      "root": 636,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-637",
+      "root": 637,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-638",
+      "root": 638,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-639",
+      "root": 639,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-640",
+      "root": 640,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-641",
+      "root": 641,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-642",
+      "root": 642,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-643",
+      "root": 643,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-644",
+      "root": 644,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-645",
+      "root": 645,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-646",
+      "root": 646,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-647",
+      "root": 647,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-648",
+      "root": 648,
+      "name": "Spot Mini Picco de embutir",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-509",
+      "root": 509,
+      "name": "Forno Epic T smart 60 F13",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-510",
+      "root": 510,
+      "name": "Cuba Quadrum 2.5C 34",
+      "room": "kitchen",
       "category": "produto"
     }
   ],
