@@ -1,0 +1,1577 @@
+{
+  "project": {
+    "name": "Luciana & Luciano",
+    "studio": "Gabriel Fermino Arquitetura",
+    "logo": "./imagem-d64c239f9834c227.png"
+  },
+  "rooms": [
+    {
+      "id": "all",
+      "name": "Visão geral",
+      "bounds": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          6.5,
+          19.8,
+          3.1
+        ]
+      ]
+    },
+    {
+      "id": "hall",
+      "name": "Hall",
+      "bounds": [
+        [
+          2.1,
+          0,
+          0
+        ],
+        [
+          5.05,
+          3.65,
+          3.1
+        ]
+      ]
+    },
+    {
+      "id": "tv",
+      "name": "Sala de TV",
+      "bounds": [
+        [
+          0.2,
+          3.55,
+          0
+        ],
+        [
+          6.35,
+          9.15,
+          3.1
+        ]
+      ]
+    },
+    {
+      "id": "dining",
+      "name": "Sala de jantar",
+      "bounds": [
+        [
+          0.2,
+          9.15,
+          0
+        ],
+        [
+          6.35,
+          13.65,
+          3.1
+        ]
+      ]
+    },
+    {
+      "id": "kitchen",
+      "name": "Cozinha",
+      "bounds": [
+        [
+          0.2,
+          13.65,
+          0
+        ],
+        [
+          6.35,
+          19.75,
+          3.1
+        ]
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "src": "./imagem-167ba57b534eaeb4.jpg",
+      "name": "render (1).png",
+      "id": "1",
+      "full": "assets/renders/01.png",
+      "room": "tv",
+      "title": "Sala de TV / 01"
+    },
+    {
+      "src": "./imagem-e886cfdd511b7636.jpg",
+      "name": "render (2).png",
+      "id": "2",
+      "full": "assets/renders/02.png",
+      "room": "tv",
+      "title": "Sala de TV / 02"
+    },
+    {
+      "src": "./imagem-954d993866576de7.jpg",
+      "name": "render (3).png",
+      "id": "3",
+      "full": "assets/renders/03.png",
+      "room": "tv",
+      "title": "Sala de TV / 03"
+    },
+    {
+      "src": "./imagem-49e7e27521399b9c.jpg",
+      "name": "render (4).png",
+      "id": "4",
+      "full": "assets/renders/04.png",
+      "room": "tv",
+      "title": "Sala de TV / 04"
+    },
+    {
+      "src": "./imagem-1f663f0ad4dd86fb.jpg",
+      "name": "render (5).png",
+      "id": "5",
+      "full": "assets/renders/05.png",
+      "room": "tv",
+      "title": "Sala de TV / 05"
+    },
+    {
+      "src": "./imagem-1a3b7c58a42e84aa.jpg",
+      "name": "render (6).png",
+      "id": "6",
+      "full": "assets/renders/06.png",
+      "room": "tv",
+      "title": "Sala de TV / 06"
+    },
+    {
+      "src": "./imagem-c7fcc34f0942a4d3.jpg",
+      "name": "render (7).png",
+      "id": "7",
+      "full": "assets/renders/07.png",
+      "room": "dining",
+      "title": "Sala de jantar / 07"
+    },
+    {
+      "src": "./imagem-b22257a192dfd0a2.jpg",
+      "name": "render (8).png",
+      "id": "8",
+      "full": "assets/renders/08.png",
+      "room": "dining",
+      "title": "Sala de jantar / 08"
+    },
+    {
+      "src": "./imagem-2c5515f9bc142b8f.jpg",
+      "name": "render (9).png",
+      "id": "9",
+      "full": "assets/renders/09.png",
+      "room": "dining",
+      "title": "Sala de jantar / 09"
+    },
+    {
+      "src": "./imagem-84453fcaf290db37.jpg",
+      "name": "render (10).png",
+      "id": "10",
+      "full": "assets/renders/10.png",
+      "room": "dining",
+      "title": "Sala de jantar / 10"
+    },
+    {
+      "src": "./imagem-8105e17ba9761c79.jpg",
+      "name": "render (11).png",
+      "id": "11",
+      "full": "assets/renders/11.png",
+      "room": "dining",
+      "title": "Sala de jantar / 11"
+    },
+    {
+      "src": "./imagem-62e4f49221611174.jpg",
+      "name": "render (12).png",
+      "id": "12",
+      "full": "assets/renders/12.png",
+      "room": "dining",
+      "title": "Sala de jantar / 12"
+    },
+    {
+      "src": "./imagem-f1b56c710cce9eb6.jpg",
+      "name": "render (13).png",
+      "id": "13",
+      "full": "assets/renders/13.png",
+      "room": "kitchen",
+      "title": "Cozinha / 13"
+    },
+    {
+      "src": "./imagem-29aa3fa6a20b46e8.jpg",
+      "name": "render (14).png",
+      "id": "14",
+      "full": "assets/renders/14.png",
+      "room": "kitchen",
+      "title": "Cozinha / 14"
+    },
+    {
+      "src": "./imagem-c37f82f121803122.jpg",
+      "name": "render (15).png",
+      "id": "15",
+      "full": "assets/renders/15.png",
+      "room": "kitchen",
+      "title": "Cozinha / 15"
+    },
+    {
+      "src": "./imagem-9cafeaef4ac20f2d.jpg",
+      "name": "render (16).png",
+      "id": "16",
+      "full": "assets/renders/16.png",
+      "room": "kitchen",
+      "title": "Cozinha / 16"
+    },
+    {
+      "src": "./imagem-c0c19347d3ba94f2.jpg",
+      "name": "render (17).png",
+      "id": "17",
+      "full": "assets/renders/17.png",
+      "room": "kitchen",
+      "title": "Cozinha / 17"
+    }
+  ],
+  "products": [
+    {
+      "id": "purificador",
+      "name": "Purificador Bem Estar",
+      "brand": "Consul",
+      "model": "CPB36AF",
+      "referencePage": 21,
+      "url": "https://www.consul.com.br/purificador-consul-bem-estar-refrigerado-cpb36af/p",
+      "photo": "assets/produtos/purificador.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 23
+    },
+    {
+      "id": "coifa",
+      "name": "Coifa Sospesa Ilha 110 cm",
+      "brand": "Elettromec",
+      "model": "Connect",
+      "referencePage": 23,
+      "url": "https://elettromec.com.br/produto/coifa-sospesa-ilha-110-cm-connect/",
+      "photo": "assets/produtos/coifa.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 24
+    },
+    {
+      "id": "lixeira",
+      "name": "Lixeira dupla inox",
+      "brand": "Hettich",
+      "model": null,
+      "referencePage": 24,
+      "url": "https://hettich.com.br/sub-produtos/lixeira-dupla-inox/",
+      "photo": "assets/produtos/lixeira.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 25
+    },
+    {
+      "id": "banqueta",
+      "name": "Banqueta Compasso",
+      "brand": "Morada Decor",
+      "model": "Compasso",
+      "referencePage": 25,
+      "url": "https://moradadecor.com.br/produtos/ver/56/banqueta-compasso",
+      "photo": "assets/produtos/banqueta.webp",
+      "room": "kitchen",
+      "roots": [
+        210,
+        211,
+        212,
+        213,
+        214,
+        215
+      ],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 27
+    },
+    {
+      "id": "canal",
+      "name": "Canal organizador úmido 900",
+      "brand": "De Bacco",
+      "model": "900",
+      "referencePage": 27,
+      "url": "https://debacco.com.br/produto/canal-organizador-900/",
+      "photo": "assets/produtos/canal.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 28
+    },
+    {
+      "id": "lava-loucas",
+      "name": "Lava-louças de embutir 14 serviços",
+      "brand": "De Bacco",
+      "model": null,
+      "referencePage": 28,
+      "url": "https://debacco.com.br/produto/lava-louca-de-embutir/",
+      "photo": "assets/produtos/lava-loucas.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 29
+    },
+    {
+      "id": "torneira",
+      "name": "Monocomando Versatile",
+      "brand": "Tramontina",
+      "model": "Versatile",
+      "referencePage": 30,
+      "url": "https://empresas.tramontina.com.br/product/monocomando-tramontina-versatile-em-a%C3%A7o-inox-com-bica-m%C3%B3vel/01t8c00000NtdTzAAJ",
+      "photo": "assets/produtos/torneira.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 31
+    },
+    {
+      "id": "cooktop",
+      "name": "Cooktop Penta Inox Flat 5GX 90",
+      "brand": "Tramontina",
+      "model": "Safestop",
+      "referencePage": 31,
+      "url": "https://www.tramontina.com.br/cooktop-a-gas-tramontina-design-collection-penta-inox-flat-5-gx-90-em-aco-inox-e-trempes-em-ferro-fundido-com-acendimento-automatico-e-5-queimadores/94728104.html",
+      "photo": null,
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null
+    },
+    {
+      "id": "geladeira",
+      "name": "Geladeira Home Pro",
+      "brand": "Electrolux",
+      "model": "IQ8WS",
+      "referencePage": 31,
+      "url": "https://loja.electrolux.com.br/geladeira-electrolux-frost-free-inverter-583l-autosense-e-flexispace-4-portas-inox-espelhado-home-pro--iq8ws--1/p",
+      "photo": "assets/produtos/geladeira.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [
+        "Capacidade a confirmar: o briefing informa 541 L e o endereço fornecido menciona 583 L."
+      ],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 32
+    },
+    {
+      "id": "piso",
+      "name": "York WH NAT",
+      "brand": "Portinari",
+      "model": "York WH NAT",
+      "referencePage": 32,
+      "url": "https://www.portinarirevestimentos.com.br/pt/produtos/york-wh-nat-60x120",
+      "photo": "assets/produtos/piso.webp",
+      "room": null,
+      "roots": [],
+      "notes": [
+        "Formato a confirmar: referência do projeto 120 × 120 cm; endereço fornecido indica 60 × 120 cm."
+      ],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 33
+    },
+    {
+      "id": "castelatto",
+      "name": "Moledo Naturale Branco Polar",
+      "brand": "Castelatto",
+      "model": "Moledo",
+      "referencePage": 33,
+      "url": "https://castelatto.com.br/produto/classic-collection/moledo/",
+      "photo": "assets/produtos/castelatto.webp",
+      "room": null,
+      "roots": [
+        209
+      ],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 34
+    },
+    {
+      "id": "tapete-giallo",
+      "name": "Tapete Giallo Chumbo",
+      "brand": "Tapecouro",
+      "model": "Giallo",
+      "referencePage": 34,
+      "url": "https://www.tapecouro.com.br/produto.php?pd_id=1677&ct_id=147",
+      "photo": "assets/produtos/tapete-giallo.webp",
+      "room": null,
+      "roots": [],
+      "notes": [
+        "Associação ao ambiente e ao objeto 3D pendente de confirmação."
+      ],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 35
+    },
+    {
+      "id": "tapete-seed",
+      "name": "Tapete Seed A",
+      "brand": "Tapetes São José",
+      "model": "Seed A",
+      "referencePage": 35,
+      "url": "https://www.tapetessaojose.com/produtos/tapete-seed-boucle-capri-off-white-e-natural/",
+      "photo": "assets/produtos/tapete-seed.webp",
+      "room": null,
+      "roots": [],
+      "notes": [
+        "Associação ao ambiente e ao objeto 3D pendente de confirmação."
+      ],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 36
+    },
+    {
+      "id": "tapete-bamboo",
+      "name": "Tapete Bamboo Leaf",
+      "brand": "Lorena Canals",
+      "model": "Bamboo Leaf",
+      "referencePage": 36,
+      "url": "https://mimootoys.com.br/produtos/tapete-lavavel-bamboo-leaf-120-cm-lorena-canals/",
+      "photo": "assets/produtos/tapete-bamboo.webp",
+      "room": null,
+      "roots": [],
+      "notes": [
+        "Associação ao ambiente e ao objeto 3D pendente de confirmação."
+      ],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 37
+    },
+    {
+      "id": "cadeira",
+      "name": "Cadeira Ming",
+      "brand": "Nature Design",
+      "model": "Ming",
+      "referencePage": 37,
+      "url": "https://naturedesign.com.br/produto/cadeira-ming/",
+      "photo": "assets/produtos/cadeira.webp",
+      "room": "dining",
+      "roots": [
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 37
+    },
+    {
+      "id": "mesa-jantar",
+      "name": "Mesa de jantar Fenda",
+      "brand": "Escal Móveis",
+      "model": "Fenda",
+      "referencePage": 38,
+      "url": "https://escalmoveis.com.br/produtos/mesa-de-jantar-fenda/",
+      "photo": "assets/produtos/mesa-jantar.webp",
+      "room": "dining",
+      "roots": [
+        300
+      ],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 38
+    },
+    {
+      "id": "mesa-centro",
+      "name": "Mesa de centro Maia Castanho e Champanhe",
+      "brand": "Westwing",
+      "model": "Maia",
+      "referencePage": 38,
+      "url": "https://www.westwing.com.br/s/Westwing/p/mesa-de-centro-maia-castanho-e-champanhe/AP430CP26OVSWW-1899229.html",
+      "photo": "assets/produtos/mesa-centro.webp",
+      "room": "tv",
+      "roots": [
+        204
+      ],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 39
+    },
+    {
+      "id": "mesa-lateral",
+      "name": "Mesa lateral Faro",
+      "brand": "Montot",
+      "model": "Faro",
+      "referencePage": 39,
+      "url": "https://www.montot.com.br/product-page/mesa-lateral-faro",
+      "photo": "assets/produtos/mesa-lateral.webp",
+      "room": null,
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 40
+    },
+    {
+      "id": "plafon",
+      "name": "Plafons Carimbó",
+      "brand": null,
+      "model": "Carimbó",
+      "referencePage": 40,
+      "url": "https://www.arqplace.com.br/iluminacao-alto-padrao/plafon-carimbo-70x15-cm-lvf-132",
+      "photo": "assets/produtos/plafon.webp",
+      "room": null,
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 41
+    },
+    {
+      "id": "pendente",
+      "name": "Pendente Carimbó",
+      "brand": null,
+      "model": "Carimbó linear",
+      "referencePage": 41,
+      "url": "https://www.arqplace.com.br/iluminacao-alto-padrao/pendente-carimbo-linear-140x15-x14-cm-2-modelos-lvf-186-163",
+      "photo": "assets/produtos/pendente.webp",
+      "room": null,
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 42
+    },
+    {
+      "id": "spot",
+      "name": "Spot Mini Picco de embutir",
+      "brand": "Interlight",
+      "model": "Mini Picco",
+      "referencePage": 42,
+      "url": "https://www.lojailuminainstalacao.com.br/embutidos/linha-picco-interlight/picco-pro-embutido-redondo-8w-15-2700k?variant_id=30797",
+      "photo": "assets/produtos/spot.webp",
+      "room": null,
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 43
+    },
+    {
+      "id": "forno",
+      "name": "Forno Epic T smart 60 F13",
+      "brand": "Tramontina",
+      "model": "Epic T smart 60 F13",
+      "referencePage": 43,
+      "url": "https://www.tramontina.com.br/forno-tramontina-epic-t-smart-60-f13-em-aco-inox/94871220.html",
+      "photo": "assets/produtos/forno.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 44
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba Quadrum 2.5C 34",
+      "brand": "Tramontina",
+      "model": "Quadrum 2.5C 34",
+      "referencePage": 44,
+      "url": "https://www.tramontina.com.br/cuba-tramontina-design-collection-quadrum-2.5c-34-em-aco-inox-com-acessorios/94009163.html",
+      "photo": "assets/produtos/cuba.webp",
+      "room": "kitchen",
+      "roots": [],
+      "notes": [],
+      "category": "produto",
+      "dimensions": null,
+      "quantity": null,
+      "materials": null,
+      "finish": null,
+      "photoPage": 45
+    }
+  ],
+  "elements": [
+    {
+      "id": "hall",
+      "name": "Armário do hall",
+      "root": 12,
+      "room": "hall",
+      "category": "marcenaria",
+      "pages": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "code": "MAR-012",
+      "materials": [
+        "MDF Arauco Jequitibá",
+        "MDF Arauco Linho",
+        "Quartzito White"
+      ],
+      "notes": []
+    },
+    {
+      "id": "painel-tv",
+      "name": "Painel de TV e rack",
+      "root": 100,
+      "room": "tv",
+      "category": "marcenaria",
+      "pages": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "code": "MAR-100",
+      "materials": [
+        "MDF Arauco Jequitibá",
+        "MDF Arauco Linho",
+        "Quartzito White"
+      ],
+      "notes": []
+    },
+    {
+      "id": "divisoria",
+      "name": "Divisória de correr",
+      "root": 101,
+      "room": "dining",
+      "category": "marcenaria",
+      "pages": [
+        40
+      ],
+      "code": "MAR-101",
+      "materials": [],
+      "notes": [
+        "Material da divisória a confirmar: o PDF admite MDF Jequitibá ou alumínio amadeirado."
+      ]
+    },
+    {
+      "id": "cristaleira",
+      "name": "Cristaleira e adega",
+      "root": 102,
+      "room": "dining",
+      "category": "marcenaria",
+      "pages": [
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "code": "MAR-102",
+      "materials": [
+        "MDF Arauco Jequitibá",
+        "MDF Arauco Linho",
+        "Quartzito White"
+      ],
+      "notes": []
+    },
+    {
+      "id": "cozinha",
+      "name": "Armários da cozinha",
+      "root": 103,
+      "room": "kitchen",
+      "category": "marcenaria",
+      "pages": [
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57
+      ],
+      "code": "MAR-103",
+      "materials": [
+        "MDF Arauco Jequitibá",
+        "MDF Arauco Linho",
+        "Quartzito White"
+      ],
+      "notes": []
+    },
+    {
+      "id": "ilha",
+      "name": "Ilha da cozinha",
+      "root": 104,
+      "room": "kitchen",
+      "category": "marcenaria",
+      "pages": [
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "code": "MAR-104",
+      "materials": [
+        "MDF Arauco Jequitibá",
+        "Quartzito White"
+      ],
+      "notes": []
+    },
+    {
+      "id": "suspenso",
+      "name": "Conjunto suspenso e muxarabi",
+      "root": 105,
+      "room": "kitchen",
+      "category": "marcenaria",
+      "pages": [
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "code": "MAR-105",
+      "materials": [],
+      "notes": []
+    },
+    {
+      "id": "churrasqueira",
+      "name": "Churrasqueira",
+      "root": 8,
+      "room": "kitchen",
+      "category": "arquitetura",
+      "pages": [
+        51,
+        52,
+        53
+      ],
+      "code": "ARQ-008",
+      "materials": [],
+      "notes": [
+        "Pranchas de contexto da cozinha; sem prancha exclusiva."
+      ]
+    },
+    {
+      "id": "forro",
+      "name": "Forro e iluminação",
+      "root": 14,
+      "room": null,
+      "category": "arquitetura",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "code": "ARQ-014",
+      "materials": [],
+      "notes": []
+    }
+  ],
+  "objects": [
+    {
+      "id": "obj-203",
+      "root": 203,
+      "name": "Sofá · sala de TV",
+      "room": "tv",
+      "category": "produto"
+    },
+    {
+      "id": "obj-204",
+      "root": 204,
+      "name": "Mesa de centro",
+      "room": "tv",
+      "category": "produto"
+    },
+    {
+      "id": "obj-205",
+      "root": 205,
+      "name": "Tapete 01 · entrada",
+      "room": "hall",
+      "category": "produto"
+    },
+    {
+      "id": "obj-300",
+      "root": 300,
+      "name": "Mesa de jantar",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-301",
+      "root": 301,
+      "name": "Cadeira de jantar 01",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-302",
+      "root": 302,
+      "name": "Cadeira de jantar 02",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-303",
+      "root": 303,
+      "name": "Cadeira de jantar 03",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-304",
+      "root": 304,
+      "name": "Cadeira de jantar 04",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-305",
+      "root": 305,
+      "name": "Cadeira de jantar 05",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-306",
+      "root": 306,
+      "name": "Cadeira de jantar 06",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-307",
+      "root": 307,
+      "name": "Cadeira de jantar 07",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-308",
+      "root": 308,
+      "name": "Cadeira de jantar 08",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-309",
+      "root": 309,
+      "name": "Cadeira de jantar 09",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-310",
+      "root": 310,
+      "name": "Cadeira de jantar 10",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-207",
+      "root": 207,
+      "name": "Tapete 02 · sala de TV",
+      "room": "tv",
+      "category": "produto"
+    },
+    {
+      "id": "obj-208",
+      "root": 208,
+      "name": "Tapete 03 · sala de jantar",
+      "room": "dining",
+      "category": "produto"
+    },
+    {
+      "id": "obj-209",
+      "root": 209,
+      "name": "Revestimento de pedra Castelatto",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-210",
+      "root": 210,
+      "name": "Banqueta 01",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-211",
+      "root": 211,
+      "name": "Banqueta 02",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-212",
+      "root": 212,
+      "name": "Banqueta 03",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-213",
+      "root": 213,
+      "name": "Banqueta 04",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-214",
+      "root": 214,
+      "name": "Banqueta 05",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-215",
+      "root": 215,
+      "name": "Banqueta 06",
+      "room": "kitchen",
+      "category": "produto"
+    },
+    {
+      "id": "obj-400",
+      "root": 400,
+      "name": "Cortina 01",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-401",
+      "root": 401,
+      "name": "Cortina 02",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-402",
+      "root": 402,
+      "name": "Cortina 03",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-403",
+      "root": 403,
+      "name": "Cortina 04",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-404",
+      "root": 404,
+      "name": "Cortina 05",
+      "room": null,
+      "category": "produto"
+    },
+    {
+      "id": "obj-405",
+      "root": 405,
+      "name": "Cortina 06",
+      "room": null,
+      "category": "produto"
+    }
+  ],
+  "pdf": {
+    "name": "Detalhamento_Luciana_Luciano_A4_R02.pdf",
+    "length": 120820687,
+    "chunkSize": 4194304,
+    "chunks": [
+      "assets/pdf/original-00.bin",
+      "assets/pdf/original-01.bin",
+      "assets/pdf/original-02.bin",
+      "assets/pdf/original-03.bin",
+      "assets/pdf/original-04.bin",
+      "assets/pdf/original-05.bin",
+      "assets/pdf/original-06.bin",
+      "assets/pdf/original-07.bin",
+      "assets/pdf/original-08.bin",
+      "assets/pdf/original-09.bin",
+      "assets/pdf/original-10.bin",
+      "assets/pdf/original-11.bin",
+      "assets/pdf/original-12.bin",
+      "assets/pdf/original-13.bin",
+      "assets/pdf/original-14.bin",
+      "assets/pdf/original-15.bin",
+      "assets/pdf/original-16.bin",
+      "assets/pdf/original-17.bin",
+      "assets/pdf/original-18.bin",
+      "assets/pdf/original-19.bin",
+      "assets/pdf/original-20.bin",
+      "assets/pdf/original-21.bin",
+      "assets/pdf/original-22.bin",
+      "assets/pdf/original-23.bin",
+      "assets/pdf/original-24.bin",
+      "assets/pdf/original-25.bin",
+      "assets/pdf/original-26.bin",
+      "assets/pdf/original-27.bin",
+      "assets/pdf/original-28.bin"
+    ],
+    "sha256": "b98b1c61f3f9eb5a24239166ab6e70eed76da354bf9d22d49fc591463cbddfe7",
+    "pages": [
+      {
+        "page": 1,
+        "title": "Capa / Luciana & Luciano",
+        "thumb": "assets/pranchas/01.webp",
+        "folio": null
+      },
+      {
+        "page": 2,
+        "title": "Índice de pranchas",
+        "thumb": "assets/pranchas/02.webp",
+        "folio": null
+      },
+      {
+        "page": 3,
+        "title": "MATERIAIS / Acabamentos e critérios de leitura",
+        "thumb": "assets/pranchas/03.webp",
+        "folio": "2"
+      },
+      {
+        "page": 4,
+        "title": "Materiais / MDF",
+        "thumb": "assets/pranchas/04.webp",
+        "folio": "3"
+      },
+      {
+        "page": 5,
+        "title": "Materiais / Revestimentos",
+        "thumb": "assets/pranchas/05.webp",
+        "folio": "4"
+      },
+      {
+        "page": 6,
+        "title": "Materiais / Pedra e esquadrias",
+        "thumb": "assets/pranchas/06.webp",
+        "folio": "5"
+      },
+      {
+        "page": 7,
+        "title": "Mobiliário / Referências",
+        "thumb": "assets/pranchas/07.webp",
+        "folio": "6"
+      },
+      {
+        "page": 8,
+        "title": "Iluminação / Referências",
+        "thumb": "assets/pranchas/08.webp",
+        "folio": "7"
+      },
+      {
+        "page": 9,
+        "title": "MATERIAIS / Materiais | marcenaria e pedras",
+        "thumb": "assets/pranchas/09.webp",
+        "folio": "8"
+      },
+      {
+        "page": 10,
+        "title": "VISTAS GERAIS / Planta geral | ambientes integrados",
+        "thumb": "assets/pranchas/10.webp",
+        "folio": "9"
+      },
+      {
+        "page": 11,
+        "title": "VISTAS GERAIS / Planta geral | vista superior do conjunto",
+        "thumb": "assets/pranchas/11.webp",
+        "folio": "10"
+      },
+      {
+        "page": 12,
+        "title": "VISTAS GERAIS / Vista longitudinal | lado 2",
+        "thumb": "assets/pranchas/12.webp",
+        "folio": "11"
+      },
+      {
+        "page": 13,
+        "title": "VISTAS GERAIS / Vista longitudinal | lado 1",
+        "thumb": "assets/pranchas/13.webp",
+        "folio": "12"
+      },
+      {
+        "page": 14,
+        "title": "FORRO E ILUMINAÇÃO / Forro | hall e sala de TV",
+        "thumb": "assets/pranchas/14.webp",
+        "folio": "13"
+      },
+      {
+        "page": 15,
+        "title": "FORRO E ILUMINAÇÃO / Iluminação | hall e sala de TV",
+        "thumb": "assets/pranchas/15.webp",
+        "folio": "14"
+      },
+      {
+        "page": 16,
+        "title": "FORRO E ILUMINAÇÃO / Forro | sala de jantar",
+        "thumb": "assets/pranchas/16.webp",
+        "folio": "15"
+      },
+      {
+        "page": 17,
+        "title": "FORRO E ILUMINAÇÃO / Iluminação | sala de jantar",
+        "thumb": "assets/pranchas/17.webp",
+        "folio": "16"
+      },
+      {
+        "page": 18,
+        "title": "FORRO E ILUMINAÇÃO / Forro | cozinha",
+        "thumb": "assets/pranchas/18.webp",
+        "folio": "17"
+      },
+      {
+        "page": 19,
+        "title": "FORRO E ILUMINAÇÃO / Iluminação | cozinha",
+        "thumb": "assets/pranchas/19.webp",
+        "folio": "18"
+      },
+      {
+        "page": 20,
+        "title": "FORRO E ILUMINAÇÃO / Iluminação | Perﬁs LEDs embutidos na alvenaria",
+        "thumb": "assets/pranchas/20.webp",
+        "folio": "19"
+      },
+      {
+        "page": 21,
+        "title": "HALL / Armário do hall | conjunto em L",
+        "thumb": "assets/pranchas/21.webp",
+        "folio": "20"
+      },
+      {
+        "page": 22,
+        "title": "HALL / Armário do hall | frente de 175 cm",
+        "thumb": "assets/pranchas/22.webp",
+        "folio": "21"
+      },
+      {
+        "page": 23,
+        "title": "HALL / Armário do hall | frente de 180 cm",
+        "thumb": "assets/pranchas/23.webp",
+        "folio": "22"
+      },
+      {
+        "page": 24,
+        "title": "HALL / Armário do hall | interior de 175 cm",
+        "thumb": "assets/pranchas/24.webp",
+        "folio": "23"
+      },
+      {
+        "page": 25,
+        "title": "HALL / Armário do hall | interior de 180 cm",
+        "thumb": "assets/pranchas/25.webp",
+        "folio": "24"
+      },
+      {
+        "page": 26,
+        "title": "TV E JANTAR / Painel e rack | vista frontal",
+        "thumb": "assets/pranchas/26.webp",
+        "folio": "25"
+      },
+      {
+        "page": 27,
+        "title": "TV E JANTAR / Painel e rack | perspectiva geral",
+        "thumb": "assets/pranchas/27.webp",
+        "folio": "26"
+      },
+      {
+        "page": 28,
+        "title": "TV E JANTAR / Painel e rack | elevação cotada",
+        "thumb": "assets/pranchas/28.webp",
+        "folio": "27"
+      },
+      {
+        "page": 29,
+        "title": "TV E JANTAR / Painel e rack | perﬁl lateral 1",
+        "thumb": "assets/pranchas/29.webp",
+        "folio": "28"
+      },
+      {
+        "page": 30,
+        "title": "TV E JANTAR / Painel e rack | perﬁl lateral 2",
+        "thumb": "assets/pranchas/30.webp",
+        "folio": "29"
+      },
+      {
+        "page": 31,
+        "title": "TV E JANTAR / Rack | nicho de extremidade",
+        "thumb": "assets/pranchas/31.webp",
+        "folio": "30"
+      },
+      {
+        "page": 32,
+        "title": "TV E JANTAR / Painel | Encaixe painel de correr",
+        "thumb": "assets/pranchas/32.webp",
+        "folio": "31"
+      },
+      {
+        "page": 33,
+        "title": "TV E JANTAR / Painel | moldura e iluminação",
+        "thumb": "assets/pranchas/33.webp",
+        "folio": "32"
+      },
+      {
+        "page": 34,
+        "title": "TV E JANTAR / Painel | detalhe inferior e LED",
+        "thumb": "assets/pranchas/34.webp",
+        "folio": "33"
+      },
+      {
+        "page": 35,
+        "title": "TV e jantar / Ripado Linho — modulação e acabamento",
+        "thumb": "assets/pranchas/35.webp",
+        "folio": "34"
+      },
+      {
+        "page": 36,
+        "title": "TV E JANTAR / Ripado Jequitibá | modulação e acabamento",
+        "thumb": "assets/pranchas/36.webp",
+        "folio": "35"
+      },
+      {
+        "page": 37,
+        "title": "TV E JANTAR / Rack | compartimentos internos",
+        "thumb": "assets/pranchas/37.webp",
+        "folio": "36"
+      },
+      {
+        "page": 38,
+        "title": "PAINÉIS E DIVISÓRIA / Painel ripado | em L",
+        "thumb": "assets/pranchas/38.webp",
+        "folio": "37"
+      },
+      {
+        "page": 39,
+        "title": "PAINÉIS E DIVISÓRIA / Painel amadeirado | detalhe de modulação",
+        "thumb": "assets/pranchas/39.webp",
+        "folio": "38"
+      },
+      {
+        "page": 40,
+        "title": "PAINÉIS E DIVISÓRIA / Divisória ripada | conjunto de folhas",
+        "thumb": "assets/pranchas/40.webp",
+        "folio": "39"
+      },
+      {
+        "page": 41,
+        "title": "SALA DE JANTAR / Cristaleira e adega | vista frontal",
+        "thumb": "assets/pranchas/41.webp",
+        "folio": "40"
+      },
+      {
+        "page": 42,
+        "title": "SALA DE JANTAR / Cristaleira e bar | vista sem frentes superiores",
+        "thumb": "assets/pranchas/42.webp",
+        "folio": "41"
+      },
+      {
+        "page": 43,
+        "title": "SALA DE JANTAR / Cristaleira e adega | conjunto",
+        "thumb": "assets/pranchas/43.webp",
+        "folio": "42"
+      },
+      {
+        "page": 44,
+        "title": "SALA DE JANTAR / Cristaleira e adega | elevação externa",
+        "thumb": "assets/pranchas/44.webp",
+        "folio": "43"
+      },
+      {
+        "page": 45,
+        "title": "SALA DE JANTAR / Cristaleira e adega | perﬁl lateral",
+        "thumb": "assets/pranchas/45.webp",
+        "folio": "44"
+      },
+      {
+        "page": 46,
+        "title": "SALA DE JANTAR / Cristaleira e bar | divisões internas",
+        "thumb": "assets/pranchas/46.webp",
+        "folio": "45"
+      },
+      {
+        "page": 47,
+        "title": "SALA DE JANTAR / Cristaleira | armário inferior aberto",
+        "thumb": "assets/pranchas/47.webp",
+        "folio": "46"
+      },
+      {
+        "page": 48,
+        "title": "SALA DE JANTAR / Cristaleira | prateleiras de vidro",
+        "thumb": "assets/pranchas/48.webp",
+        "folio": "47"
+      },
+      {
+        "page": 49,
+        "title": "SALA DE JANTAR / Cristaleira | expositores",
+        "thumb": "assets/pranchas/49.webp",
+        "folio": "48"
+      },
+      {
+        "page": 50,
+        "title": "COZINHA / Painel ripado | acabamento da cozinha",
+        "thumb": "assets/pranchas/50.webp",
+        "folio": "49"
+      },
+      {
+        "page": 51,
+        "title": "COZINHA / Cozinha | composição geral",
+        "thumb": "assets/pranchas/51.webp",
+        "folio": "50"
+      },
+      {
+        "page": 52,
+        "title": "COZINHA / Cozinha | elevação e medidas",
+        "thumb": "assets/pranchas/52.webp",
+        "folio": "51"
+      },
+      {
+        "page": 53,
+        "title": "COZINHA / Cozinha | perspectiva",
+        "thumb": "assets/pranchas/53.webp",
+        "folio": "52"
+      },
+      {
+        "page": 54,
+        "title": "COZINHA / Cozinha | nichos superiores da torre",
+        "thumb": "assets/pranchas/54.webp",
+        "folio": "53"
+      },
+      {
+        "page": 55,
+        "title": "COZINHA / Cozinha | gabinete do canal organizador úmido",
+        "thumb": "assets/pranchas/55.webp",
+        "folio": "54"
+      },
+      {
+        "page": 56,
+        "title": "COZINHA / Cozinha | fruteira e módulo lateral",
+        "thumb": "assets/pranchas/56.webp",
+        "folio": "55"
+      },
+      {
+        "page": 57,
+        "title": "COZINHA / Cozinha | interiores dos aéreos",
+        "thumb": "assets/pranchas/57.webp",
+        "folio": "56"
+      },
+      {
+        "page": 58,
+        "title": "COZINHA / Ilha | perspectiva geral",
+        "thumb": "assets/pranchas/58.webp",
+        "folio": "57"
+      },
+      {
+        "page": 59,
+        "title": "COZINHA / Ilha | frente ripada",
+        "thumb": "assets/pranchas/59.webp",
+        "folio": "58"
+      },
+      {
+        "page": 60,
+        "title": "COZINHA / Ilha | lateral em pedra 1",
+        "thumb": "assets/pranchas/60.webp",
+        "folio": "59"
+      },
+      {
+        "page": 61,
+        "title": "COZINHA / Ilha | lateral em pedra 2",
+        "thumb": "assets/pranchas/61.webp",
+        "folio": "60"
+      },
+      {
+        "page": 62,
+        "title": "COZINHA / Ilha | frente e modulação",
+        "thumb": "assets/pranchas/62.webp",
+        "folio": "62"
+      },
+      {
+        "page": 63,
+        "title": "COZINHA / Ilha | armário interno",
+        "thumb": "assets/pranchas/63.webp",
+        "folio": "63"
+      },
+      {
+        "page": 64,
+        "title": "COZINHA / Conjunto suspenso | perspectiva superior",
+        "thumb": "assets/pranchas/64.webp",
+        "folio": "64"
+      },
+      {
+        "page": 65,
+        "title": "COZINHA / Conjunto suspenso | vista superior",
+        "thumb": "assets/pranchas/65.webp",
+        "folio": "65"
+      },
+      {
+        "page": 66,
+        "title": "COZINHA / Conjunto suspenso | frente longitudinal",
+        "thumb": "assets/pranchas/66.webp",
+        "folio": "66"
+      },
+      {
+        "page": 67,
+        "title": "COZINHA / Conjunto suspenso | lateral",
+        "thumb": "assets/pranchas/67.webp",
+        "folio": "67"
+      },
+      {
+        "page": 68,
+        "title": "COZINHA / Conjunto suspenso | vista inferior e coifa",
+        "thumb": "assets/pranchas/68.webp",
+        "folio": "68"
+      },
+      {
+        "page": 69,
+        "title": "COZINHA / Conjunto suspenso | perspectiva inferior",
+        "thumb": "assets/pranchas/69.webp",
+        "folio": "69"
+      },
+      {
+        "page": 70,
+        "title": "COZINHA / Conjunto suspenso | muxarabi vazada",
+        "thumb": "assets/pranchas/70.webp",
+        "folio": "70"
+      },
+      {
+        "page": 71,
+        "title": "COZINHA / Conjunto suspenso | muxarabi fechado",
+        "thumb": "assets/pranchas/71.webp",
+        "folio": "71"
+      },
+      {
+        "page": 72,
+        "title": "COZINHA / Conjunto suspenso | corte esquemático",
+        "thumb": "assets/pranchas/72.webp",
+        "folio": "72"
+      },
+      {
+        "page": 73,
+        "title": "PERSPECTIVAS / Perspectivas dos ambientes",
+        "thumb": "assets/pranchas/73.webp",
+        "folio": "73"
+      },
+      {
+        "page": 74,
+        "title": "PERSPECTIVAS / Perspectivas dos ambientes",
+        "thumb": "assets/pranchas/74.webp",
+        "folio": "74"
+      },
+      {
+        "page": 75,
+        "title": "PERSPECTIVAS / Perspectivas dos ambientes",
+        "thumb": "assets/pranchas/75.webp",
+        "folio": "75"
+      },
+      {
+        "page": 76,
+        "title": "PERSPECTIVAS / Perspectivas dos ambientes",
+        "thumb": "assets/pranchas/76.webp",
+        "folio": "76"
+      },
+      {
+        "page": 77,
+        "title": "PERSPECTIVAS / Perspectivas dos ambientes",
+        "thumb": "assets/pranchas/77.webp",
+        "folio": "77"
+      }
+    ]
+  }
+}
