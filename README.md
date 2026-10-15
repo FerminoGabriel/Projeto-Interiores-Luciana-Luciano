@@ -33,3 +33,7 @@ A ação de explosão foi retirada. O caminho público de documentação utiliza
 Biblioteca PDF.js 5.6.205 incluída localmente sob Apache-2.0 (assets/vendor/LICENSE-pdfjs.txt).
 
 Conferências de integridade e sintaxe realizadas na entrega. Avaliação visual e testes de uso em navegador ficam para o usuário, conforme solicitado.
+
+## Tour 3D adicional — R21
+
+A página tour.html incorpora o Three.js em tour/ no mesmo domínio. Menu e início oferecem acesso. A navegação usa uma página independente para não manter os dois visualizadores carregados ao mesmo tempo. Projeto 3D, seleção de móveis, catálogo, PDF e imagens permanecem no fluxo original. O tour corresponde ao commit b32ac64669acb198e1ec5fe23b3590c310d19d2f do estudo independente, preservado em seu próprio endereço.
