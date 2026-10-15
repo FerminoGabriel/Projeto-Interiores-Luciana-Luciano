@@ -10,7 +10,7 @@ export function createPageViewer({pages,loadDocument,printPage,onOpen,onClose}){
  function paint(){bounds();preview.style.width=w+'px';preview.style.height=h+'px';preview.style.transform=`translate(${x}px,${y}px) scale(${z})`;find('[data-action="fit"]').textContent=Math.round(z*100)+'%';}
  function invalidate(){version++;clearTimeout(timer);task?.cancel();tile?.remove();tile=null;}
  function schedule(){clearTimeout(timer);timer=setTimeout(render,140);}
- function fit(){invalidate();const ratio=297/210;fitW=Math.max(1,stage.clientWidth-24);fitH=Math.max(1,stage.clientHeight-24);w=Math.min(fitW,fitH*ratio);h=w/ratio;z=1;x=(stage.clientWidth-w)/2;y=(stage.clientHeight-h)/2;paint();schedule();}
+ function fit(){invalidate();const ratio=pages[number-1].ratio||297/210;fitW=Math.max(1,stage.clientWidth-24);fitH=Math.max(1,stage.clientHeight-24);w=Math.min(fitW,fitH*ratio);h=w/ratio;z=1;x=(stage.clientWidth-w)/2;y=(stage.clientHeight-h)/2;paint();schedule();}
  function zoomAt(value,cx=stage.clientWidth/2,cy=stage.clientHeight/2){invalidate();const next=clamp(value,1,10),factor=next/z;x=cx-(cx-x)*factor;y=cy-(cy-y)*factor;z=next;paint();schedule();}
  async function render(){if(!dialog.open||points.size)return;const token=++version;task?.cancel();status.textContent='Preparando detalhes…';let canvas=null,ownTask=null;
   try{const doc=await loadDocument();if(token!==version||!dialog.open)return;const page=await doc.getPage(number);if(token!==version||!dialog.open)return;
