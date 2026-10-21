@@ -137,38 +137,45 @@
   "renders": [
     {
       "title": "Banheiro suíte · vista 1",
-      "src": "renders/1.webp",
-      "thumb": "renders/1-thumb.webp"
+      "src": "renders/1-original.png",
+      "thumb": "renders/1-original.png",
+      "hero": "renders/1.webp"
     },
     {
       "title": "Banheiro suíte · vista 2",
-      "src": "renders/2.webp",
-      "thumb": "renders/2-thumb.webp"
+      "src": "renders/2-original.png",
+      "thumb": "renders/2-original.png",
+      "hero": "renders/2.webp"
     },
     {
       "title": "Banheiro suíte · vista 3",
-      "src": "renders/3.webp",
-      "thumb": "renders/3-thumb.webp"
+      "src": "renders/3-original.png",
+      "thumb": "renders/3-original.png",
+      "hero": "renders/3.webp"
     },
     {
       "title": "Banheiro suíte · vista 4",
-      "src": "renders/4.webp",
-      "thumb": "renders/4-thumb.webp"
+      "src": "renders/4-original.png",
+      "thumb": "renders/4-original.png",
+      "hero": "renders/4.webp"
     },
     {
       "title": "Banheiro suíte · vista 5",
-      "src": "renders/5.webp",
-      "thumb": "renders/5-thumb.webp"
+      "src": "renders/5-original.png",
+      "thumb": "renders/5-original.png",
+      "hero": "renders/5.webp"
     },
     {
       "title": "Banheiro suíte · vista 6",
-      "src": "renders/6.webp",
-      "thumb": "renders/6-thumb.webp"
+      "src": "renders/6-original.png",
+      "thumb": "renders/6-original.png",
+      "hero": "renders/6.webp"
     },
     {
       "title": "Banheiro suíte · vista 7",
-      "src": "renders/7.webp",
-      "thumb": "renders/7-thumb.webp"
+      "src": "renders/7-original.png",
+      "thumb": "renders/7-original.png",
+      "hero": "renders/7.webp"
     }
   ],
   "documents": []
