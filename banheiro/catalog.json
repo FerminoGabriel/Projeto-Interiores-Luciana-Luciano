@@ -2,28 +2,18 @@
   "items": [
     {
       "id": "gabinete",
-      "name": "Gabinete da bancada",
+      "name": "Gabinete, bancada e cuba",
       "category": "conjunto",
       "tops": [
-        "G7"
-      ],
-      "description": "Marcenaria suspensa sob a bancada.",
-      "brand": "ARAUCO",
-      "model": "Canela",
-      "notes": [
-        "Medidas e ferragens serão documentadas nas pranchas do banheiro."
-      ]
-    },
-    {
-      "id": "bancada",
-      "name": "Bancada e cuba",
-      "category": "conjunto",
-      "tops": [
+        "G7",
         "G13"
       ],
-      "description": "Conjunto em quartzito branco, com cuba e complementos presentes no modelo.",
+      "description": "Um único conjunto: gabinete suspenso em MDF Canela, bancada e cuba em quartzito branco.",
+      "brand": "ARAUCO",
+      "model": "Canela · marcenaria",
       "notes": [
-        "Quartzito White, conforme referência do projeto. Confirmar a identificação comercial nas pranchas."
+        "Quartzito White, conforme referência do projeto.",
+        "Medidas e ferragens serão documentadas nas pranchas do banheiro."
       ]
     },
     {
