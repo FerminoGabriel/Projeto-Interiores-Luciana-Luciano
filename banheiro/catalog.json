@@ -1,0 +1,185 @@
+{
+  "items": [
+    {
+      "id": "gabinete",
+      "name": "Gabinete da bancada",
+      "category": "conjunto",
+      "tops": [
+        "G7"
+      ],
+      "description": "Marcenaria suspensa sob a bancada.",
+      "brand": "ARAUCO",
+      "model": "Canela",
+      "notes": [
+        "Medidas e ferragens serão documentadas nas pranchas do banheiro."
+      ]
+    },
+    {
+      "id": "bancada",
+      "name": "Bancada e cuba",
+      "category": "conjunto",
+      "tops": [
+        "G13"
+      ],
+      "description": "Conjunto em quartzito branco, com cuba e complementos presentes no modelo.",
+      "notes": [
+        "Quartzito White, conforme referência do projeto. Confirmar a identificação comercial nas pranchas."
+      ]
+    },
+    {
+      "id": "espelho",
+      "name": "Espelho e painel",
+      "category": "conjunto",
+      "tops": [
+        "G6",
+        "G8"
+      ],
+      "description": "Espelho com iluminação integrada e painel de apoio.",
+      "brand": "ARAUCO",
+      "model": "Canela · painel"
+    },
+    {
+      "id": "forro",
+      "name": "Forro e conjunto ripado",
+      "category": "conjunto",
+      "tops": [
+        "G15"
+      ],
+      "description": "Conjunto superior com madeira e tela tensionada, conforme o projeto.",
+      "brand": "ARAUCO",
+      "model": "Canela"
+    },
+    {
+      "id": "banheira",
+      "name": "Banheira Saturnia",
+      "category": "produto",
+      "tops": [
+        "G14"
+      ],
+      "brand": "Mondialle",
+      "model": "Saturnia · Sand and Sea",
+      "description": "Banheira especificada pelo responsável pelo projeto.",
+      "notes": [
+        "Versão com hidromassagem informada no briefing; o endereço de referência menciona imersão. Confirmar configuração antes da compra."
+      ],
+      "url": "https://mondialle.my.canva.site/saturniaimersao"
+    },
+    {
+      "id": "bacia",
+      "name": "Bacia In-Wash com In-Tank",
+      "category": "produto",
+      "tops": [
+        "I0"
+      ],
+      "brand": "Roca",
+      "model": "A8030P600L",
+      "description": "Bacia sanitária com sistema In-Wash e In-Tank.",
+      "url": "https://www.br.roca.com/produtos/bacia-in-wash-in-tank-8030P6..L?sku=A8030P600L"
+    },
+    {
+      "id": "misturador-bancada",
+      "name": "Misturador da bancada",
+      "category": "produto",
+      "tops": [
+        "G18"
+      ],
+      "brand": "Lexxa Bagno",
+      "model": "SLIMT LX2296",
+      "description": "Misturador monocomando de bica baixa.",
+      "notes": [
+        "Acabamento comercial a confirmar."
+      ],
+      "url": "https://lexxabagno.com.br/products/slimt-misturador-monocomando-bica-baixa-lx2296"
+    },
+    {
+      "id": "misturador-banheira",
+      "name": "Misturador de piso",
+      "category": "produto",
+      "tops": [
+        "G24"
+      ],
+      "brand": "Doka Bath Works",
+      "model": "Rainbow",
+      "description": "Monocomando de piso para banheira com ducha manual, conforme referência fornecida.",
+      "notes": [
+        "Acabamento comercial a confirmar."
+      ],
+      "url": "https://www.dokabathworks.com.br/produto/monocomando-de-piso-para-banheira-rainbow/"
+    },
+    {
+      "id": "piso",
+      "name": "Piso York WH NAT",
+      "category": "material",
+      "brand": "Portinari",
+      "model": "120 × 120 cm",
+      "description": "Mesmo piso informado para os ambientes integrados."
+    },
+    {
+      "id": "parana",
+      "name": "Paraná Gold WH NAT DD",
+      "category": "material",
+      "brand": "Portinari",
+      "model": "PARANA GOLD WH NAT DD",
+      "description": "Porcelanato claro especificado no briefing.",
+      "notes": [
+        "Referência comercial informada pelo responsável pelo projeto."
+      ]
+    },
+    {
+      "id": "nero",
+      "name": "Porcelanato escuro",
+      "category": "material",
+      "description": "Revestimento escuro do projeto.",
+      "notes": [
+        "Marca e nome comercial serão informados."
+      ]
+    },
+    {
+      "id": "chuveiro",
+      "name": "Chuveiros e metais do banho",
+      "category": "produto",
+      "description": "Referência comercial ainda não fornecida.",
+      "notes": [
+        "O tour preserva a representação do SketchUp. Modelo e acabamento serão confirmados."
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "title": "Banheiro suíte · vista 1",
+      "src": "renders/1.webp",
+      "thumb": "renders/1-thumb.webp"
+    },
+    {
+      "title": "Banheiro suíte · vista 2",
+      "src": "renders/2.webp",
+      "thumb": "renders/2-thumb.webp"
+    },
+    {
+      "title": "Banheiro suíte · vista 3",
+      "src": "renders/3.webp",
+      "thumb": "renders/3-thumb.webp"
+    },
+    {
+      "title": "Banheiro suíte · vista 4",
+      "src": "renders/4.webp",
+      "thumb": "renders/4-thumb.webp"
+    },
+    {
+      "title": "Banheiro suíte · vista 5",
+      "src": "renders/5.webp",
+      "thumb": "renders/5-thumb.webp"
+    },
+    {
+      "title": "Banheiro suíte · vista 6",
+      "src": "renders/6.webp",
+      "thumb": "renders/6-thumb.webp"
+    },
+    {
+      "title": "Banheiro suíte · vista 7",
+      "src": "renders/7.webp",
+      "thumb": "renders/7-thumb.webp"
+    }
+  ],
+  "documents": []
+}

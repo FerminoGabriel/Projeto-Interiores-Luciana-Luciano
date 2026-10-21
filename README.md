@@ -37,3 +37,13 @@ Conferências de integridade e sintaxe realizadas na entrega. Avaliação visual
 ## Tour 3D adicional — R21
 
 A página tour.html incorpora o Three.js em tour/ no mesmo domínio. Menu e início oferecem acesso. A navegação usa uma página independente para não manter os dois visualizadores carregados ao mesmo tempo. Projeto 3D, seleção de móveis, catálogo, PDF e imagens permanecem no fluxo original. O tour corresponde ao commit b32ac64669acb198e1ec5fe23b3590c310d19d2f do estudo independente, preservado em seu próprio endereço.
+
+## Ampliação: banheiro da suíte — 20/10/2026
+
+A entrada sem fragmento e #ambientes abre a seleção de ambientes. #inicio e todos os links anteriores mantêm a experiência dos ambientes integrados. O novo ambiente está em banheiro/index.html, com Tour (#tour), modelos individuais (#elemento/ID), especificações (#indice), renders (#galeria) e área de documentação pendente (#pranchas). Nenhuma prancha de outro ambiente foi reaproveitada como documentação do banheiro.
+
+banheiro/catalog.json associa IDs estáveis aos grupos exportados do SketchUp. viewer.html usa o Tour quando não há parâmetro; ?object=ID carrega somente os grupos daquele conjunto. CSS principal e bibliotecas Three.js são compartilhados com o site existente. O modelo completo não é oferecido na modalidade Projeto 3D para o banheiro.
+
+Fontes locais: E:/GABRIEL RENDERS/CODEX/BANHEIRO SUÍTE LUCIANA. O SketchUp e o prompt não são publicados. A pasta preparacao-site contém extração, compactação, inventário e validação; atualizações devem preservar os IDs e conferir os grupos antes de reaplicar associações. Os próximos PDFs podem ser colocados na subpasta PDFs da pasta fonte. Identificação comercial do chuveiro e revestimento escuro permanece pendente; versão da banheira deve ser confirmada, pois o briefing menciona hidromassagem e o link menciona imersão.
+
+Conferido: hash do SketchUp preservado; 5.160.434 triângulos; quatro câmeras em células livres; oito modelos individuais com arquivos separados; sete renders; integridade dos arquivos anteriores; links locais e sintaxe JavaScript. Geometria inicial do Tour: 8,45 MB; acessórios/vegetação são carregados em seguida. Sem teste visual em navegador ou dispositivo físico nesta entrega.
