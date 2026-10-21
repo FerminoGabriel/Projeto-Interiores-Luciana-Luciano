@@ -9,3 +9,6 @@
 body:not(.object-mode) #overview{display:none}
 
 @media(max-height:620px){#loading{padding:24px 6vw;overflow:auto;align-items:flex-start}#loading section{padding:0;width:100%}#loading h1{font-size:42px;margin:18px 0 12px}#loading .intro{margin:10px 0;font-size:12px!important}.load-track{margin-top:16px}#enter{margin-top:12px;padding:12px 18px}.cover-caption{display:none}#loading .eyebrow{font-size:8px}#load-label{max-width:300px}}@media(max-width:390px){.brand strong{font-size:7px}.brand img{width:30px}.actions button{padding:6px}.brand span{font-size:11px}}
+
+/* Keep only the small floating controls over the walkthrough. */
+body:not(.object-mode) header{background:none;padding:10px 12px;justify-content:flex-end}body:not(.object-mode) header .brand{display:none}body:not(.object-mode) header .actions{padding:3px;box-shadow:0 2px 12px #44321812}body:not(.object-mode) .actions button{min-height:34px;padding:7px 9px}body:not(.object-mode) #room-label{display:none}
