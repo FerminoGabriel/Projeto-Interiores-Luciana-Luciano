@@ -1,7 +1,7 @@
 import {startPhotoSequence} from './photo-sequence.js?v=2';
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let data,ready=false,sceneStarted=false,pendingCommand=[],activeRoot=null,activePage='',pdfModule=null,lightIndex=0,galleryRoom='';
+let data,ready=false,sceneStarted=false,sceneRoot=null,pendingCommand=[],activeRoot=null,activePage='',pdfModule=null,lightIndex=0,galleryRoom='';
 const roomName=id=>data.rooms.find(r=>r.id===id)?.name||'Ambientes do projeto';
 const element=root=>data.elements.find(x=>x.root===root);
 const productFor=root=>data.products.find(x=>x.roots.includes(root));
@@ -9,7 +9,7 @@ const notify=text=>{const n=$('#notification');n.textContent=text;n.hidden=false
 const field=(key,value)=>`<div><dt>${esc(key)}</dt><dd>${esc(value||'Especificação pendente')}</dd></div>`;
 const external=p=>p.url&&/^https:\/\//.test(p.url)?`<a class="button dark" href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">Acessar produto ↗</a>`:'';
 function command(m){if(ready)$('#scene-frame').contentWindow.postMessage({source:'gf-app',...m},location.origin);else pendingCommand.push(m);}
-function startScene(root){if(sceneStarted)return;sceneStarted=true;$('#scene-frame').src='cena.html?individual='+encodeURIComponent(root)+'&v=27';$('#scene-frame').hidden=false;}
+function startScene(root){if(sceneStarted&&sceneRoot===root)return;sceneStarted=true;sceneRoot=root;ready=false;pendingCommand=[{type:'lighting',on:$('#lights-switch').getAttribute('aria-checked')==='true'}];$('#scene-state').hidden=false;$('#scene-state').textContent='Preparando a peça selecionada…';$('#scene-frame').src='cena.html?individual='+encodeURIComponent(root)+'&v=28';$('#scene-frame').hidden=false;}
 function page(id){$('#environment-home').hidden=id==='inicio'||id==='ambientes';document.body.classList.toggle('pdf-reading',id==='pranchas');$$('.page').forEach(p=>p.hidden=p.id!==id);$$('#navigation a').forEach(a=>a.toggleAttribute('aria-current',false));const link=$(`#navigation a[href="#${id==='produto'||id==='projeto'?'indice':id==='pranchas'?'pranchas/1':id}"]`);link?.setAttribute('aria-current','page');if(activePage!==id){window.scrollTo(0,0);activePage=id;}$('#navigation').classList.remove('open');$('#menu-toggle').setAttribute('aria-expanded','false');}
 function listScene(){return data.elements.map(x=>`<a href="#elemento/${x.id}">${esc(x.name)} <span aria-hidden="true">↗</span></a>`).join('');}
 function selected(root,bounds){activeRoot=root;const el=element(root),p=productFor(root),obj=data.objects.find(x=>x.root===root);const name=el?.name||p?.name||obj?.name||'Elemento do projeto';$('#scene-title').textContent=name;$('#scene-kicker').textContent=el?.code||'MOBILIÁRIO / PRODUTO';let body=`<p class="overline">${esc(el?.code||'PRODUTO / '+root)}</p><h2>${esc(name)}</h2><p>${esc(roomName(el?.room||p?.room||obj?.room))}</p>`;
