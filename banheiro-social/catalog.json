@@ -1,0 +1,109 @@
+{
+  "items": [
+    {
+      "id": "gabinete",
+      "name": "Gabinete, bancada e cuba",
+      "category": "conjunto",
+      "tops": [
+        "G1",
+        "I0",
+        "G7"
+      ],
+      "description": "Conjunto representado no modelo do banheiro social.",
+      "notes": [
+        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
+      ]
+    },
+    {
+      "id": "espelho",
+      "name": "Espelho e painel ripado",
+      "category": "conjunto",
+      "tops": [
+        "G2",
+        "G18",
+        "G19",
+        "G20"
+      ],
+      "description": "Conjunto representado no modelo do banheiro social.",
+      "notes": [
+        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
+      ]
+    },
+    {
+      "id": "box",
+      "name": "Box e conjunto do banho",
+      "category": "conjunto",
+      "tops": [
+        "G3"
+      ],
+      "description": "Conjunto representado no modelo do banheiro social.",
+      "notes": [
+        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
+      ]
+    },
+    {
+      "id": "bacia",
+      "name": "Bacia sanitária",
+      "category": "produto",
+      "tops": [
+        "I4"
+      ],
+      "description": "Conjunto representado no modelo do banheiro social.",
+      "notes": [
+        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
+      ]
+    },
+    {
+      "id": "iluminacao",
+      "name": "Iluminação do teto",
+      "category": "conjunto",
+      "tops": [
+        "G6",
+        "G8"
+      ],
+      "description": "Conjunto representado no modelo do banheiro social.",
+      "notes": [
+        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
+      ]
+    }
+  ],
+  "renders": [
+    {
+      "title": "Banheiro social · vista 1",
+      "src": "renders/1-original.png",
+      "thumb": "renders/1-original.png",
+      "hero": "renders/1.webp"
+    },
+    {
+      "title": "Banheiro social · vista 2",
+      "src": "renders/2-original.png",
+      "thumb": "renders/2-original.png",
+      "hero": "renders/2.webp"
+    },
+    {
+      "title": "Banheiro social · vista 3",
+      "src": "renders/3-original.png",
+      "thumb": "renders/3-original.png",
+      "hero": "renders/3.webp"
+    },
+    {
+      "title": "Banheiro social · vista 4",
+      "src": "renders/4-original.png",
+      "thumb": "renders/4-original.png",
+      "hero": "renders/4.webp"
+    },
+    {
+      "title": "Banheiro social · vista 5",
+      "src": "renders/5-original.png",
+      "thumb": "renders/5-original.png",
+      "hero": "renders/5.webp"
+    },
+    {
+      "title": "Banheiro social · vista 6",
+      "src": "renders/6-original.png",
+      "thumb": "renders/6-original.png",
+      "hero": "renders/6.webp"
+    }
+  ],
+  "documents": []
+}

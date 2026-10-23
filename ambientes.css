@@ -3,3 +3,5 @@
 @media(max-width:760px){body:has(#ambientes:not([hidden])) #menu-toggle{display:none}body:has(#ambientes:not([hidden])) #navigation{display:flex;position:static;height:100%;padding:0;background:transparent;border:0;margin-left:auto}body:has(#ambientes:not([hidden])) #navigation a{font-size:11px;padding:12px 0}}
 
 .photo-sequence-frame{transition:opacity 1.7s ease;will-change:opacity}@media(prefers-reduced-motion:reduce){.photo-sequence-frame{transition:none}}
+
+.environment-choices{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid #d9d3c7;background:#f4f1eb}.environment-choices a{display:flex;align-items:center;gap:16px;padding:25px 30px;text-decoration:none;color:#302c25;border-right:1px solid #d9d3c7;font:20px Georgia,serif}.environment-choices small{font:10px Arial,sans-serif;color:#8a795d}.environment-choices span{margin-left:auto}.environment-choices a:hover{background:#eae4d8}@media(max-width:650px){.environment-choices{grid-template-columns:1fr}.environment-choices a{padding:18px 24px;font-size:19px;border-bottom:1px solid #ded8cd}}
