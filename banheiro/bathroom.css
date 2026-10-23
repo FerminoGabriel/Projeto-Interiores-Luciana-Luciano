@@ -9,3 +9,5 @@ body.tour-active{overflow:hidden}body.tour-active .site-header{height:56px;paddi
 #inicio .hero-link{display:flex;align-items:center;justify-content:space-between;width:300px;max-width:100%;padding:18px 22px;border:1px solid #e2cfaa;background:#e2cfaa;color:#282923;font-size:11px;font-weight:600;letter-spacing:1.5px;box-shadow:0 6px 25px #0002;transition:background .2s,transform .2s}#inicio .hero-link span{margin:0;font-size:25px}#inicio .hero-link:hover{background:#f7f1e6;transform:translateY(-2px)}.photo-sequence-frame{transition:opacity 1.7s ease;will-change:opacity}.hero-bottom>span:last-child{display:none}#gallery-grid .gallery-item img{image-rendering:auto}@media(max-width:760px){.hero-bottom{bottom:64px}#inicio .hero-link{width:280px;padding:16px 20px}}@media(prefers-reduced-motion:reduce){.photo-sequence-frame{transition:none}}
 
 .photo-sequence-control{display:none!important}
+
+.spec-photo{display:block;margin:0 0 22px;background:white}.spec-photo img{display:block;width:100%;max-height:280px;object-fit:contain}.product-layout .product-visual{background:#fff}.product-layout .product-visual img{object-fit:contain}

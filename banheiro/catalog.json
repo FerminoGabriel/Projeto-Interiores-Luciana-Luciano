@@ -12,9 +12,10 @@
       "brand": "ARAUCO",
       "model": "Canela · marcenaria",
       "notes": [
-        "Quartzito White, conforme referência do projeto.",
-        "Medidas e ferragens serão documentadas nas pranchas do banheiro."
-      ]
+        "Quartzito White e MDF Canela, conforme as pranchas R01.",
+        "Sistema Touch com amortecimento. Conferir medidas no local antes da fabricação."
+      ],
+      "documentPage": 13
     },
     {
       "id": "espelho",
@@ -26,7 +27,8 @@
       ],
       "description": "Espelho com iluminação integrada e painel de apoio.",
       "brand": "ARAUCO",
-      "model": "Canela · painel"
+      "model": "Canela · painel",
+      "documentPage": 11
     },
     {
       "id": "forro",
@@ -37,7 +39,8 @@
       ],
       "description": "Conjunto superior com madeira e tela tensionada, conforme o projeto.",
       "brand": "ARAUCO",
-      "model": "Canela"
+      "model": "Canela",
+      "documentPage": 10
     },
     {
       "id": "banheira",
@@ -47,12 +50,13 @@
         "G14"
       ],
       "brand": "Mondialle",
-      "model": "Saturnia · Sand and Sea",
+      "model": "Saturnia · Sand and Sea · hidromassagem",
       "description": "Banheira especificada pelo responsável pelo projeto.",
       "notes": [
-        "Versão com hidromassagem informada no briefing; o endereço de referência menciona imersão. Confirmar configuração antes da compra."
+        "Referência conforme a prancha de louças e metais R01."
       ],
-      "url": "https://mondialle.my.canva.site/saturniaimersao"
+      "url": "https://mondialle.com.br/banheiras-exclusivas/",
+      "image": "assets/produtos/banheira.webp"
     },
     {
       "id": "bacia",
@@ -64,7 +68,8 @@
       "brand": "Roca",
       "model": "A8030P600L",
       "description": "Bacia sanitária com sistema In-Wash e In-Tank.",
-      "url": "https://www.br.roca.com/produtos/bacia-in-wash-in-tank-8030P6..L?sku=A8030P600L"
+      "url": "https://www.br.roca.com/produtos/bacia-in-wash-in-tank-8030P6..L?sku=A8030P600L",
+      "image": "assets/produtos/bacia.webp"
     },
     {
       "id": "misturador-bancada",
@@ -79,7 +84,8 @@
       "notes": [
         "Acabamento comercial a confirmar."
       ],
-      "url": "https://lexxabagno.com.br/products/slimt-misturador-monocomando-bica-baixa-lx2296"
+      "url": "https://lexxabagno.com.br/products/slimt-misturador-monocomando-bica-baixa-lx2296",
+      "image": "assets/produtos/misturador-bancada.webp"
     },
     {
       "id": "misturador-banheira",
@@ -94,7 +100,8 @@
       "notes": [
         "Acabamento comercial a confirmar."
       ],
-      "url": "https://www.dokabathworks.com.br/produto/monocomando-de-piso-para-banheira-rainbow/"
+      "url": "https://www.dokabathworks.com.br/produto/monocomando-de-piso-para-banheira-rainbow/",
+      "image": "assets/produtos/misturador-banheira.webp"
     },
     {
       "id": "piso",
@@ -102,36 +109,75 @@
       "category": "material",
       "brand": "Portinari",
       "model": "120 × 120 cm",
-      "description": "Mesmo piso informado para os ambientes integrados."
+      "description": "Mesmo piso informado para os ambientes integrados.",
+      "image": "assets/produtos/piso.webp",
+      "url": "https://www.portinarirevestimentos.com.br/pt/produtos/york-wh-nat-60x120",
+      "notes": [
+        "O projeto e o arquivo fornecido indicam 120 × 120 cm. O endereço de referência enviado menciona 60 × 120; confirmar o formato antes da compra."
+      ]
     },
     {
       "id": "parana",
-      "name": "Paraná Gold WH NAT DD",
+      "name": "Paraná Gold WH POL",
       "category": "material",
       "brand": "Portinari",
-      "model": "PARANA GOLD WH NAT DD",
-      "description": "Porcelanato claro especificado no briefing.",
-      "notes": [
-        "Referência comercial informada pelo responsável pelo projeto."
-      ]
+      "model": "120 × 120 cm",
+      "description": "Porcelanato especificado nas pranchas R01.",
+      "notes": [],
+      "image": "assets/produtos/parana.webp",
+      "url": "https://www.portinarirevestimentos.com.br/pt/produtos/parana-gold-wh-pol-120x120"
     },
     {
       "id": "nero",
-      "name": "Porcelanato escuro",
+      "name": "Quartzito Titanium",
       "category": "material",
-      "description": "Revestimento escuro do projeto.",
-      "notes": [
-        "Marca e nome comercial serão informados."
-      ]
+      "description": "Pedra dos nichos, conforme as pranchas R01.",
+      "notes": [],
+      "image": "assets/produtos/titanium.webp"
     },
     {
       "id": "chuveiro",
-      "name": "Chuveiros e metais do banho",
+      "name": "Chuveiro com tubo de parede quadrado",
       "category": "produto",
-      "description": "Referência comercial ainda não fornecida.",
-      "notes": [
-        "O tour preserva a representação do SketchUp. Modelo e acabamento serão confirmados."
-      ]
+      "description": "Chuveiro especificado nas pranchas R01.",
+      "notes": [],
+      "image": "assets/produtos/chuveiro.webp",
+      "brand": "Deca",
+      "model": "1934.C.CT · 20 cm · cromado",
+      "url": "https://www.deca.com.br/ambientes/banheiro-e-lavabo/chuveiros-e-duchas/chuveiro-de-parede/chuveiro-com-tubo-de-parede-20cm-cromado1934cct"
+    },
+    {
+      "id": "toalheiro",
+      "name": "Toalheiro térmico You de parede",
+      "category": "produto",
+      "description": "Toalheiro térmico especificado nas pranchas R01.",
+      "image": "assets/produtos/toalheiro.webp",
+      "brand": "Deca",
+      "model": "127 V · Black Matte",
+      "url": "https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/toalheiro-termico/toalheiro-termico-de-parede-127v-black-matte2044bl110daqcmt"
+    },
+    {
+      "id": "canela",
+      "name": "MDF Canela",
+      "category": "material",
+      "description": "Acabamento de marcenaria do banheiro da suíte.",
+      "image": "assets/produtos/canela.webp",
+      "brand": "ARAUCO",
+      "model": "Canela"
+    },
+    {
+      "id": "moledo",
+      "name": "Pedra Moledo natural",
+      "category": "material",
+      "description": "Revestimento natural especificado nas pranchas R01.",
+      "image": "assets/produtos/moledo.webp"
+    },
+    {
+      "id": "quartzito-white",
+      "name": "Quartzito White",
+      "category": "material",
+      "description": "Pedra da bancada e dos nichos, conforme as pranchas R01.",
+      "image": "assets/produtos/quartzito-white.webp"
     }
   ],
   "renders": [
@@ -178,5 +224,11 @@
       "hero": "renders/7.webp"
     }
   ],
-  "documents": []
+  "documents": [
+    {
+      "title": "Detalhamento Banheiro Suíte · R01",
+      "url": "../pranchas-suite.html#pranchas/1",
+      "pages": 19
+    }
+  ]
 }
