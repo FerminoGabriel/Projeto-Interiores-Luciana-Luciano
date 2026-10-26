@@ -9,10 +9,14 @@
         "I0",
         "G7"
       ],
-      "description": "Conjunto representado no modelo do banheiro social.",
+      "description": "Bancada em Quartzito White, gabinete com portas basculantes ripadas em MDF Canela e nicho em MDF Arauco Linho, com cuba de apoio Abrazo Kohler.",
       "notes": [
-        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
-      ]
+        "Sistema Touch com amortecimento, conforme as pranchas R01.",
+        "Ripas das portas de 3 × 1,5 cm e espaçamento de 3 cm. Conferir medidas no local antes da fabricação."
+      ],
+      "documentPage": 14,
+      "brand": "ARAUCO",
+      "model": "Canela e Linho · marcenaria"
     },
     {
       "id": "espelho",
@@ -24,10 +28,13 @@
         "G19",
         "G20"
       ],
-      "description": "Conjunto representado no modelo do banheiro social.",
+      "description": "Painel ripado em MDF Canela e espelho prata liso com jateado e LED, conforme as pranchas R01.",
       "notes": [
-        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
-      ]
+        "Ripas de 3 × 1,5 cm e espaçamento de 3 cm, conforme a prancha 13."
+      ],
+      "documentPage": 12,
+      "brand": "ARAUCO",
+      "model": "Canela · painel"
     },
     {
       "id": "box",
@@ -36,22 +43,26 @@
       "tops": [
         "G3"
       ],
-      "description": "Conjunto representado no modelo do banheiro social.",
+      "description": "Box e conjunto do banho, conforme a representação do modelo original.",
       "notes": [
-        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
-      ]
+        "Consulte as plantas e vistas do banheiro social nas pranchas R01."
+      ],
+      "documentPage": 7
     },
     {
       "id": "bacia",
-      "name": "Bacia sanitária",
+      "name": "Bacia de piso eletrônica In-Wash In-Tank",
       "category": "produto",
       "tops": [
         "I4"
       ],
-      "description": "Conjunto representado no modelo do banheiro social.",
-      "notes": [
-        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
-      ]
+      "description": "Bacia sanitária eletrônica especificada no projeto.",
+      "notes": [],
+      "brand": "Roca",
+      "model": "In-Wash · In-Tank",
+      "url": "https://www.br.roca.com/produtos/bacia-in-wash-in-tank-8030P6..L?sku=A8030P600L",
+      "documentPage": 6,
+      "image": "assets/produtos/bacia.webp"
     },
     {
       "id": "iluminacao",
@@ -61,10 +72,171 @@
         "G6",
         "G8"
       ],
-      "description": "Conjunto representado no modelo do banheiro social.",
+      "description": "Conjunto de luminárias do teto, com plafon de sobrepor e spots de embutir.",
       "notes": [
-        "Informações de materiais, fabricantes, medidas e ferragens serão fornecidas posteriormente."
-      ]
+        "Distribuição do forro e da iluminação nas pranchas 10 e 11."
+      ],
+      "documentPage": 10
+    },
+    {
+      "id": "forro",
+      "name": "Forro de gesso",
+      "category": "conjunto",
+      "description": "Forro e dilatação, conforme o detalhamento R01.",
+      "tops": [
+        "G0"
+      ],
+      "documentPage": 10
+    },
+    {
+      "id": "degrau",
+      "name": "Degrau infantil",
+      "category": "conjunto",
+      "description": "Degrau infantil em MDF Canela, conforme a prancha 19.",
+      "tops": [
+        "G17"
+      ],
+      "documentPage": 19,
+      "brand": "ARAUCO",
+      "model": "Canela"
+    },
+    {
+      "id": "misturador-bancada",
+      "name": "Misturador monocomando bica alta LX6402",
+      "category": "produto",
+      "description": "Misturador da bancada especificado no projeto.",
+      "tops": [
+        "G7"
+      ],
+      "brand": "Lexxa Bagno",
+      "model": "LX6402",
+      "url": "https://www.leroymerlin.com.br/torneira-misturador-lavatorio-lexxa-black-cromado-lx6402bc_1571095820?region=outros",
+      "documentPage": 6,
+      "image": "assets/produtos/misturador-bancada.webp"
+    },
+    {
+      "id": "cuba",
+      "name": "Cuba de apoio Abrazo Branco",
+      "category": "produto",
+      "description": "Cuba de apoio especificada para o conjunto da bancada.",
+      "tops": [
+        "I0"
+      ],
+      "brand": "Kohler",
+      "model": "Abrazo · Branco",
+      "url": "https://www.kohlercuritiba.com.br/produtos/abrazo-cuba-de-apoio-branco/",
+      "documentPage": 6,
+      "image": "assets/produtos/cuba.webp"
+    },
+    {
+      "id": "chuveiro",
+      "name": "Chuveiro com tubo de parede quadrado",
+      "category": "produto",
+      "description": "Chuveiro especificado no projeto.",
+      "brand": "Deca",
+      "url": "https://www.deca.com.br/ambientes/banheiro-e-lavabo/chuveiros-e-duchas/chuveiro-de-parede/chuveiro-com-tubo-de-parede-20cm-cromado1934cct",
+      "documentPage": 6,
+      "image": "assets/produtos/chuveiro.webp"
+    },
+    {
+      "id": "toalheiro",
+      "name": "Toalheiro térmico You de parede",
+      "category": "produto",
+      "description": "Toalheiro térmico especificado no projeto.",
+      "brand": "Deca",
+      "model": "You",
+      "url": "https://www.deca.com.br/ambientes/banheiro-e-lavabo/acessorios-para-banheiro/toalheiro-termico/toalheiro-termico-de-parede-127v-black-matte2044bl110daqcmt",
+      "documentPage": 6,
+      "image": "assets/produtos/toalheiro.webp"
+    },
+    {
+      "id": "plafon",
+      "name": "Plafon sobrepor LED Nórdico Royale",
+      "category": "produto",
+      "description": "Luminária de sobrepor do banheiro social.",
+      "tops": [
+        "G6"
+      ],
+      "model": "Nórdico Royale",
+      "url": "https://casafarfelle.com/products/plafon-sobrepor-led-nordico-royale?variant=56235403346292",
+      "documentPage": 10,
+      "image": "assets/produtos/plafon.webp"
+    },
+    {
+      "id": "spot",
+      "name": "Spot Mini Picco de embutir",
+      "category": "produto",
+      "description": "Spot especificado no PDF de detalhamento.",
+      "tops": [
+        "G8"
+      ],
+      "model": "Mini Picco",
+      "documentPage": 11,
+      "image": "assets/produtos/spot.webp"
+    },
+    {
+      "id": "canela",
+      "name": "MDF Canela",
+      "category": "material",
+      "description": "Acabamento de marcenaria, painel ripado e degrau infantil.",
+      "brand": "ARAUCO",
+      "model": "Canela",
+      "documentPage": 4,
+      "image": "assets/produtos/canela.webp"
+    },
+    {
+      "id": "linho",
+      "name": "MDF Linho",
+      "category": "material",
+      "description": "Acabamento do nicho e das divisórias do gabinete.",
+      "brand": "ARAUCO",
+      "model": "Linho",
+      "documentPage": 4,
+      "image": "assets/produtos/linho.webp"
+    },
+    {
+      "id": "quartzito-white",
+      "name": "Quartzito White",
+      "category": "material",
+      "description": "Pedra da bancada e dos nichos, conforme as pranchas R01.",
+      "documentPage": 5,
+      "image": "assets/produtos/quartzito-white.webp"
+    },
+    {
+      "id": "piso",
+      "name": "York WH NAT",
+      "category": "material",
+      "description": "Piso especificado no projeto.",
+      "brand": "Portinari",
+      "model": "120 × 120 cm",
+      "url": "https://www.portinarirevestimentos.com.br/pt/produtos/york-wh-nat-60x120",
+      "documentPage": 4,
+      "notes": [
+        "O projeto indica 120 × 120 cm. O endereço de referência enviado menciona 60 × 120; confirmar o formato antes da compra."
+      ],
+      "image": "assets/produtos/piso.webp"
+    },
+    {
+      "id": "parana",
+      "name": "Paraná Gold WH POL",
+      "category": "material",
+      "description": "Revestimento especificado no projeto.",
+      "brand": "Portinari",
+      "model": "120 × 120 cm",
+      "url": "https://www.portinarirevestimentos.com.br/pt/produtos/parana-gold-wh-pol-120x120",
+      "documentPage": 4,
+      "image": "assets/produtos/parana.webp"
+    },
+    {
+      "id": "violin",
+      "name": "Violin Decor BE Matte",
+      "category": "material",
+      "description": "Revestimento decorativo especificado no projeto.",
+      "brand": "Portinari",
+      "model": "120 × 30 cm",
+      "url": "https://www.portinarirevestimentos.com.br/pt/produtos/violin-decor-be-matte-30x120",
+      "documentPage": 4,
+      "image": "assets/produtos/violin.webp"
     }
   ],
   "renders": [
@@ -105,5 +277,11 @@
       "hero": "renders/6.webp"
     }
   ],
-  "documents": []
+  "documents": [
+    {
+      "title": "Detalhamento Banheiro Social · R01",
+      "url": "../pranchas-social.html#pranchas/1",
+      "pages": 21
+    }
+  ]
 }
