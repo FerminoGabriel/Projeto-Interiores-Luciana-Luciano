@@ -1,3 +1,5 @@
+import {requireDocumentAccess} from './document-access.js?v=1';
+await requireDocumentAccess();
 import {createPageViewer} from './pdf-page-viewer.js?v=22';
 import * as pdfjs from './assets/vendor/pdf.min.mjs';
 pdfjs.GlobalWorkerOptions.workerSrc='./assets/vendor/pdf.worker.min.mjs';
